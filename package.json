@@ -1,0 +1,13 @@
+{
+  "name": "tcsympo2019",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^0.14.11"
+  },
+  "scripts": {
+    "dev": "vuepress dev",
+    "build": "vuepress build"
+  }
+}
