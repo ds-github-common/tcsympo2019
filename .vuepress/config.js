@@ -1,5 +1,5 @@
 module.exports = {
-  base: "/",
+  // base: "/",
   markdown: {
     lineNumbers: true
   },
@@ -7,13 +7,23 @@ module.exports = {
     logo: 'https://www.science.co.jp/wordpress/wp-content/themes/humanscience/common/img/logo.jpg',
     nav: [
       {text: 'Home', link: '/' },
-      {text: 'About', link: '/about/'},
-      {text: 'GitHub', link: 'https://github.com/hs-yonekura/tcsympo2019'}
+      { text: 'Contents', link: '/contents/' },
+      { text: 'About', link: '/about/' },
+      {
+        text: 'External Links',
+        items: [
+          { text: 'GitHub', link: 'https://github.com/hs-yonekura/tcsympo2019' },
+          { text: 'Twitter', link: 'https://twitter.com/yuukikun31' }
+        ]
+      }
     ],
     sidebar: [
       '/',
-      '/about/README',
-			'/about/page-1'
- 		]
+      '/contents/',
+      '/contents/page-1'
+    ],
+    displayAllHeaders: true,
+    sidebarDepth: 2,
+    lastUpdated: '最終更新日'
   }
 }
