@@ -1,9 +1,9 @@
 ---
-title: Slack Bot をサーバーレスで運用する時の、タイムアウト対策【小技】
-tags: Slack serverless lambda Firebase cloudfunctions
-author: saken649
-slide: false
+title: はじめに
 ---
+
+[[toc]]
+
 # はじめに
 
 Slack Bot をサーバーレスで運用したい、という需要、それなりにあると思います。
@@ -25,18 +25,18 @@ https://github.com/saken649/NameThinkingLambda
 cf. https://api.slack.com/slash-commands#responding_to_commands
 
 そしてサーバーレスならではの事情として、どうしても **ランタイムを起動する時間が必要** という問題があります。
-cf. [全部教えます！ サーバレスアプリのアンチパターン とチューニング](https://d0.awsstatic.com/events/jp/2017/summit/devday/D4T7-2.pdf)
+cf. [全部教えます！　 サーバレスアプリのアンチパターン とチューニング](https://d0.awsstatic.com/events/jp/2017/summit/devday/D4T7-2.pdf)
 
 ↑の資料は Lambda の記述ですが、Lambda に限った話ではないでしょう。
 
 この 3 秒には、もちろん **ランタイムの起動時間も含めて**、なので、実は意外と厳しいです。
-コールドスタートしようものなら、3 秒はかなり厳しいです。というか無理では。。
+コールドスタートしようものなら、3 秒はかなり厳しいです。というか無理では……
 例えば、上記紹介した NameThinking の場合だと、外部の API への問い合わせを行ったりしているので、コールドスタート踏んづけると 3 秒は無理です。
 タイムアウト必至ですね。
 
 ## 3 秒経過後に POST 出来るか？
 
-ただ、3 秒経った後に、Slack に POST する手段が無い訳ではありません。
+ただ、3 秒経った後に、Slack に POST する手段が無いわけではありません。
 
 > Back when you received the data payload after the command was invoked, there will have been a `response_url` field included. This URL can be used to send responses after the 3000ms window has closed.
 
@@ -59,7 +59,7 @@ Slack からの RequestBody に含まれる `response_url` は、3 秒経った�
 - でも、起動時間なども考えると、意外とシビア
 - Slack への POST 自体は 3 秒経過後でも OK
 
-タイムアウト対策を調べると、非同期処理で Lambda から別の Lambda 呼ぶ。。。とか割と出てくるのですが、実はそこまでしなくても出来ました。
+タイムアウト対策を調べると、非同期処理で Lambda から別の Lambda 呼ぶ……とか割と出てくるのですが、実はそこまでしなくても出来ました。
 **とりあえず、レスポンスを真っ先に返して、そのまま処理続ければ良さそう** です。
 処理続けるのも、非同期処理とか不要でした。
 
@@ -155,7 +155,7 @@ https://github.com/saken649/NameThinkingLambda/blob/master/name-thinking/app.js
 ## Cloud Functions for Firebase の場合
 
 Cloud Functions for Firebase は Lambda に比べるとかなりライトな印象です。
-[Express ベースで普通に動いちゃう](https://firebase.google.com/docs/functions/http-events?hl=ja) くらいなので、Express を少しでも触ったことがある方なら、すぐ取っ付けるのが特徴です。
+[Express ベースで普通に動いちゃう](https://firebase.google.com/docs/functions/http-events?hl=ja) くらいなので、Express を少しでも触ったことがあるほうなら、すぐ取っ付けるのが特徴です。
 ここでも、Express ベースで説明します。
 
 Express も例によって、レスポンスを返してもなお、その後の処理を続行させることが出来ます。
@@ -209,7 +209,7 @@ exports.slack = functions.https.onRequest(app)
 - あとは、3 秒の壁を気にせず、処理を続行する
 - `res.end()` で明示的に終了する
 
-[3 点目は公式マニュアルにそう書いてあります。](https://firebase.google.com/docs/functions/http-events?hl=ja)
+[3 点目は公式マニュアルにそう書いてあります](https://firebase.google.com/docs/functions/http-events?hl=ja)
 > 重要: すべての HTTP 関数が正しく終了するようにしてください。関数を正しく終了することで、関数が長時間実行されて過剰な課金がされるということがなくなります。res.redirect()、res.send()、res.end() で HTTP 関数を終了します。
 
 実際に、私が自作の Slack Bot で実装したコードはこちらです。[^1]
@@ -225,9 +225,9 @@ https://developer.mozilla.org/ja/docs/Web/HTTP/Status/202
 ので、冒頭でお見せした Firebase のログでは、202 で残っています。
 
 なお、問答無用で 200 番台を返すということは、裏を返すと、エラーが起きても 500 番台とか返せない、ということなので、その時の処理は、 `console.log()` の出し方などで、工夫してどうにかするしか無さそうです。
-私の Bot は大したことない個人運用の Bot なので特に考えてませんでしたが、業務利用する Bot の場合は、ちゃんと考えた方が良さそうですね。
+私の Bot は大したことない個人運用の Bot なので特に考えてませんでしたが、業務利用する Bot の場合は、ちゃんと考えたほうが良さそうですね。
 
 # おわりに
 
-真っ先にレスポンス返して、非同期でもなくそのまま処理が続く、というのは裏技的な感じもするのですが。。。
-ひとまず、このような形でシンプルに対策が取れるので、サーバーレスで運用している Slack Bot のタイムアウト対策に苦労されている方は、一度お試しください。
+真っ先にレスポンス返して、非同期でもなくそのまま処理が続く、というのは裏技的な感じもするのですが……
+ひとまず、このような形でシンプルに対策が取れるので、サーバーレスで運用している Slack Bot のタイムアウト対策に苦労されているほうは、一度お試しください。

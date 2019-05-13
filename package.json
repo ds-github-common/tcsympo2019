@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
+    "tailwindcss": "^0.7.4",
     "vuepress": "^0.14.11"
   },
   "scripts": {
