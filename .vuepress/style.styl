@@ -1,0 +1,43 @@
+base-font = font-size "Lucida Grande", Arial
+header-color = #5b5777
+header-bgcolor = white 
+
+html
+  overflow-y scroll
+
+body
+  font base-font, sans-serif
+
+.navbar
+  background-color header-bgcolor
+  color header-color
+  box-shadow 0 0 15px 0 rgba(0,0,0,.04)
+
+.navbar .site-name
+  color header-color
+
+.nav-links a.router-link-active
+  color header-color
+  font-size 12px
+
+.nav-item > a:not(.external):hover, .nav-item > a:not(.external).router-link-active
+
+.navbar .links
+  background-color initial
+
+.dropdown-wrapper .nav-dropdown .dropdown-item
+  color black 
+
+.sidebar
+  background-color #f5f7fb
+
+.page
+  background-color #fdfdfd
+
+h1
+  padding 15px
+  padding-left 0
+  color #5b3cc4
+
+div[class*="language-"]
+  background-color #22355d
