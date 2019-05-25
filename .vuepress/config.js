@@ -1,8 +1,16 @@
 module.exports = {
-  // base: "/",
+  serviceWorker: true,
   markdown: {
     lineNumbers: true
   },
+  plugins: ['@vuepress/back-to-top'],
+  head: [
+    ['link', { href: 'https://use.fontawesome.com/releases/v5.6.1/css/all.css', rel: 'stylesheet' }],
+    ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/yakuhanjp@3.0.0/dist/css/yakuhanrp.min.css' }],
+    ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/earlyaccess/mplus1p.css' }],
+    ['link', { rel: 'manifest', href: '/manifest.json'  }],
+    ['link', { rel: 'icon', href: 'image/favicon.png'  }]
+  ],
   themeConfig: {
     logo: 'https://www.science.co.jp/wordpress/wp-content/themes/humanscience/common/img/logo.jpg',
     nav: [
@@ -27,7 +35,7 @@ module.exports = {
     sidebar: [
       '/',
       '/contents/',
-      '/contents/page-1'
+      '/contents/chapter1'
     ],
     displayAllHeaders: true,
     sidebarDepth: 2,
