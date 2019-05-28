@@ -1,6 +1,6 @@
 version: 2
 jobs:
-  deploy_dev: # ジョブ名
+  deploy_dev: test 
     docker:
       - image: circleci/node:10.7 # ジョブ実行環境のDockerイメージを記述
     steps:
