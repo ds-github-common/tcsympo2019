@@ -1,7 +1,10 @@
 module.exports = {
   serviceWorker: true,
   markdown: {
-    lineNumbers: true
+    lineNumbers: true,
+    config: md => {
+      md.use(require('markdown-it-fontawesome'))
+    }
   },
   plugins: ['@vuepress/back-to-top'],
   head: [
@@ -9,12 +12,20 @@ module.exports = {
     ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/yakuhanjp@3.0.0/dist/css/yakuhanrp.min.css' }],
     ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/earlyaccess/mplus1p.css' }],
     ['link', { rel: 'manifest', href: '/manifest.json'  }],
-    ['link', { rel: 'icon', href: 'image/favicon.png'  }]
+    ['link', { rel: 'icon', href: 'image/favicon.png'  }],
+    [
+      'link',
+      {
+        rel: 'stylesheet',
+        href: 'https://use.fontawesome.com/releases/v5.0.13/css/all.css',
+        crossorigin: 'anonymous'
+      }
+    ]
   ],
   themeConfig: {
     logo: 'https://www.science.co.jp/wordpress/wp-content/themes/humanscience/common/img/logo.jpg',
     nav: [
-      {text: 'Home', link: '/' },
+      { text: 'Home', link: '/' },
       { text: 'Get Started', link: '/contents/' },
       {
         text: 'About',
@@ -35,7 +46,10 @@ module.exports = {
     sidebar: [
       '/',
       '/contents/',
-      '/contents/chapter1'
+      '/contents/chapter1',
+      '/contents/chapter2',
+      '/contents/chapter3',
+      '/contents/chapter4'
     ],
     displayAllHeaders: true,
     sidebarDepth: 2,

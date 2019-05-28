@@ -33,13 +33,13 @@ TCシンポジウム2019の発表で使用したスライドです。
 ---
 
 ### node.js/npmのインストール
-1. 以下のサイトからインストーラーをダウンロードしてインストールしてください。
+1. 以下のサイトからインストーラーをダウンロードしてインストールする。
 
 [node.js 公式サイト](https://nodejs.org/ja/)
 
 ![Image from Gyazo](https://i.gyazo.com/d5ae359cb1980a6f1fdafa4de48be153.png)
 
-2. コマンドラインツール（Windowsであればコマンドプロンプト、Macであればターミナル）を開きます。
+2. コマンドラインツール（Windowsであればコマンドプロンプト、Macであればターミナル）を開く。
 3. node.jsおよびnpmがインストールされたことを確認する。
 ```bash
 # node.jsのバージョンを確認する。
@@ -59,8 +59,8 @@ $ npm -v
 
 ### yarnのインストール
 
-1. コマンドラインツール（Windowsであればコマンドプロンプト、Macであればターミナル）を開きます。
-1. yarnをインストールします。
+1. コマンドラインツール（Windowsであればコマンドプロンプト、Macであればターミナル）を開く。
+1. yarnをインストールする。
 ```bash
 # npm経由でyarnをインストールする。
 $ npm install -g yarn
@@ -92,8 +92,8 @@ $ yarn -v
 
 ### Firebase Toolsのインストール
 
-1. コマンドラインツール（Windowsであればコマンドプロンプト、Macであればターミナル）を開きます。
-1. Firebase Toolsをインストールします。
+1. コマンドラインツール（Windowsであればコマンドプロンプト、Macであればターミナル）を開く。
+1. Firebase Toolsをインストールする。
 ```bash
 # firebase-toolsをインストールする。
 $ npm install -g firebase-tools
