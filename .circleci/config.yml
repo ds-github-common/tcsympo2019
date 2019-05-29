@@ -1,14 +1,5 @@
 version: 2
 jobs:
-  hoge:
-    working_directory: ~/workspace
-    docker:
-      - image: node:9.4.0
-    steps:
-      - checkout
-      - run:
-          name: Echo
-          command: echo hello, world.
   build:
     working_directory: ~/workspace
     docker:
@@ -33,9 +24,14 @@ jobs:
           paths:
             - node_moduels
           key: yarn-packages-{{ .Branch }}-{{ checksum "yarn.lock" }}
+  deploy:
+    steps:
+      - run:
+        command: echo "test"
 
 workflows:
   version: 2
-  fuga:
+  build_and_deploy:
     jobs:
       - build
+      - deploy
