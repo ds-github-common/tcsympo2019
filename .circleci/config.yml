@@ -24,14 +24,12 @@ jobs:
           paths:
             - node_moduels
           key: yarn-packages-{{ .Branch }}-{{ checksum "yarn.lock" }}
-  deploy:
-    steps:
+
       - run:
-        command: echo "test"
+          command: echo "test"
 
 workflows:
   version: 2
   build_and_deploy:
     jobs:
       - build
-      - deploy
