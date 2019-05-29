@@ -28,6 +28,9 @@ jobs:
       - run:
           command: yarn build 
 
+      - run:
+          command: firebase deploy
+
 workflows:
   version: 2
   build_and_deploy:
