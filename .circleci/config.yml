@@ -1,23 +1,16 @@
-build:
+version: 2
+jobs:
+  hoge:
     working_directory: ~/workspace
     docker:
-      - image: circleci/node:9.4.0
+      - image: node:9.4.0
     steps:
       - checkout
-      - restore_cache:
-          keys:
-            - npm-{{ .Branch }}-{{ checksum "package-lock.json" }}
-            - npm-{{ .Branch }}-
-            - npm-
       - run:
-          name: Install Dependency
-          command: npm install
-      - run:
-          name: Build
-          command: npm run build
-      - save_cache:
-          key: npm-{{ .Branch }}-{{ checksum "package-lock.json" }}
-          paths:
-            - ~/workspace/node_modules
-            - ~/workspace/dist
-          force: yes
+          name: Echo
+          command: echo hello, world.
+workflows:
+  version: 2
+  fuga:
+    jobs:
+      - hoge
