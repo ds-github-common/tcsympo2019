@@ -1,4 +1,4 @@
-  build:
+build:
     working_directory: ~/workspace
     docker:
       - image: circleci/node:9.4.0
