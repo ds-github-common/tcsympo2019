@@ -20,6 +20,9 @@ jobs:
       - run:
           command: yarn install
 
+      - run:
+          command: yarn add firebase-tools
+
       - save_cache:
           paths:
             - node_moduels
