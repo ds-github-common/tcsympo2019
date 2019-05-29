@@ -1,25 +1,23 @@
-version: 2
-jobs:
-  deploy_dev: 'test' 
+  build:
+    working_directory: ~/workspace
     docker:
-      - image: circleci/node:10.7 # ジョブ実行環境のDockerイメージを記述
+      - image: circleci/node:9.4.0
     steps:
-      - checkout # ソースコードのチェックアウト
-      - run: # 順に実行したいコマンドとコマンドに名前をつけます
-          name: npm install
-          command: npm i
+      - checkout
+      - restore_cache:
+          keys:
+            - npm-{{ .Branch }}-{{ checksum "package-lock.json" }}
+            - npm-{{ .Branch }}-
+            - npm-
       - run:
-          name: build
-          command: npm run vuepress build
+          name: Install Dependency
+          command: npm install
       - run:
-          name: deploy to Firebase Hosting
-          command: ./node_modules/.bin/firebase deploy --token=$FIREBASE_TOKEN # プロジェクト上のfirebase-toolsでデプロイします
-
-workflows:
-  version: 2
-  deploy_dev: # ワークフローの名前
-    jobs:
-      - deploy_dev: # 上で定義したジョブを指定します
-          filters:
-            branches:
-              only: develop # developブランチのみを実行対象とします
+          name: Build
+          command: npm run build
+      - save_cache:
+          key: npm-{{ .Branch }}-{{ checksum "package-lock.json" }}
+          paths:
+            - ~/workspace/node_modules
+            - ~/workspace/dist
+          force: yes
