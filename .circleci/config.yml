@@ -9,8 +9,33 @@ jobs:
       - run:
           name: Echo
           command: echo hello, world.
+  build:
+    working_directory: ~/workspace
+    docker:
+      - image: node:9.11
+        environment:
+          TZ: "/usr/share/zoneinfo/Asia/Tokyo"
+          DEPLOY_BRANCH: master
+
+    steps:
+      - checkout
+
+      - restore_cache:
+          keys:
+            - yarn-packages-{{ .Branch }}-{{ checksum "yarn.lock" }}
+            - yarn-packages-{{ .Branch }}
+            - yarn-packages-
+
+      - run:
+          command: yarn install
+
+      - save_cache:
+          paths:
+            - node_moduels
+          key: yarn-packages-{{ .Branch }}-{{ checksum "yarn.lock" }}
+
 workflows:
   version: 2
   fuga:
     jobs:
-      - hoge
+      - build
