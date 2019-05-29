@@ -32,9 +32,7 @@ jobs:
           command: yarn build 
 
       - run:
-          command: >- 
-            ln -s ./node_modules/firebase-tools/bin/firebase . &&
-            ./firebase deploy --only hosting --project "$FIREBASE_PJ" --token "$FIREBASE_TOKEN"
+          command: node_modules/.bin/firebase deploy --only hosting --project "$FIREBASE_PJ" --token "$FIREBASE_TOKEN"
 
 workflows:
   version: 2
