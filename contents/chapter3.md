@@ -45,7 +45,7 @@ features:
 ![Image from Gyazo](https://i.gyazo.com/0a4ad04d7bb977e4a8169a0dda9439d9.png)
 
 ::: tip <i class="fas fa-comments"></i> ヒント
-上記のリンクの記事は一例です。表示を確かめたい記事を **Qiita** で探して、右上の三点リーダー「`…`」をクリックして、 `Markdownで本文を見る` をクリックして、表示されたMarkdownをコピーしても問題ありません。
+上記のリンクの記事は一例です。任意で **Qiita** から記事を探し、右上の三点リーダー「`…`」をクリックして、 `Markdownで本文を見る` をクリックし、表示されたMarkdownをコピーしても問題ありません。
 :::
 
 5. **Visual Studio Code** で、手順2で作成したREADME.mdにペーストして、データを保存する。

@@ -1,11 +1,11 @@
-# config.jsの更新
-VuePressの設定ファイル **config.js** を更新します。
+# config.jsを設定する
+VuePressの設定ファイル **config.js** を設定します。
 
 ::: tip <i class="fas fa-comments"></i> ヒント
 VuePressのホット・リロード機能により、「[ローカルサーバーを立ち上げる](chapter1.html#ローカルサーバーを立ち上げる)」の手順３でローカルサーバーを立ち上げた状態で、config.jsを修正すると自動で `localhost:8080` に反映されます。ローカルサーバーを停止している場合は、`yarn dev` を実行したうえで、下記の手順を実行してください。
 :::
 
-## config.jsの作成
+## config.jsを作成する
 1. プロジェクトのルートフォルダに **.vuepress** フォルダを作る。
 1. **.vuepress** フォルダ内に **config.js** を作成する。
 ::: tip <i class="fas fa-comments"></i> ヒント
@@ -18,7 +18,7 @@ Visual Studio Code上でフォルダやファイルの作成ができます。
 ドット「.」から始まるフォルダやファイルは、不可視ファイルと呼ばれ、OSの設定によってはエクスプローラーやファインダーからは見えないことがあります。ただしVisual Studio Codeの **EXPLORER** であれば標準設定のまま見ることができます。
 :::
 
-## config.jsの編集
+## config.jsを編集する
 
 ### ヘッダーロゴを追加する
 **config.js** に下記を追加する。
