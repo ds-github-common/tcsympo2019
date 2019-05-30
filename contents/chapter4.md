@@ -1,11 +1,14 @@
 # Git/GitHubでデータを管理する
 ここまで作ったファイルをGitにプッシュします。
 
-1. [ローカルサーバーを立ち上げる](chapter1.html#ローカルサーバーを立ち上げる)で作成したREADME.mdをVisual Studio Codeで開き、本プロジェクトの直下に移動する。
+1. コマンドラインツール（Windowsであればコマンドプロンプト、Macであればターミナル）を開く。
+1. 本プロジェクトのルートフォルダに移動する。
+1. gitプロジェクトを初期化する。
 
 ```bash
-cd vuepress
+$ git init
 ```
 
-
-
+::: warning <i class="fas fa-exclamation-circle"></i> 注意
+`git init` は、必ず本プロジェクトのルートフォルダ（ **jamstack** フォルダ）で実行してください。
+:::

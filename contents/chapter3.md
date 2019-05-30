@@ -42,7 +42,7 @@ features:
 :::
 4. [Qiita](https://qiita.com/saken649/items/b70e462ae41614b72f77.md)のMarkdown本文を表示して全文をコピーする。
 
-![Image from Gyazo](https://i.gyazo.com/9445f8791fc7fe5915229198d10d46b2.png)
+![Image from Gyazo](https://i.gyazo.com/0a4ad04d7bb977e4a8169a0dda9439d9.png)
 
 ::: tip <i class="fas fa-comments"></i> ヒント
 上記のリンクの記事は一例です。表示を確かめたい記事を **Qiita** で探して、右上の三点リーダー「`…`」をクリックして、 `Markdownで本文を見る` をクリックして、表示されたMarkdownをコピーしても問題ありません。
