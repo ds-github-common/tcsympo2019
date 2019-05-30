@@ -16,8 +16,8 @@ features:
 ---
 
 <img src="https://cdn.canner.io/images/home/flow.gif"></img>
-```bash
 
+```bash
 # ローカルホストを立ち上げるまでの最短操作
 $ yarn init
 $ yarn add -D vuepress
