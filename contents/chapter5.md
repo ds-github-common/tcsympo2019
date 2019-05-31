@@ -15,7 +15,7 @@ Visit this URL on any device to log in:
 ```
 
 4. googleアカウント認証ページで任意のgooleアカウントを選択し、アクセスを**許可**する。
-![Image from Gyazo](https://i.gyazo.com/2d3ae1a941da118c1aaba1b85f25c843.png)
+![Image from Gyazo](https://i.gyazo.com/f9cb8fd39491eb524dd7435bda1064af.png)
 
 ::: tip <i class="fas fa-comments"></i> ヒント
 ログインに成功すると下記の画面が表示されます。
