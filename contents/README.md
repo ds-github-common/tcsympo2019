@@ -65,7 +65,7 @@ $ npm -v
 # npm経由でyarnをインストールする。
 $ npm install -g yarn
 ```
-3. yarnが正しくインストールされたことを確認する。
+3. yarnがまさしくインストールされたことを確認する。
 ```bash
 # yarnのバージョンを確認する。
 $ yarn -v
@@ -98,7 +98,7 @@ $ yarn -v
 # firebase-toolsをインストールする。
 $ npm install -g firebase-tools
 ```
-3. Firebase Toolが正しくインストールされたことを確認する。
+3. Firebase Toolがまさしくインストールされたことを確認する。
 ```bash
 # firebase-toolsのバージョンを確認する。
 $ firebase --version
