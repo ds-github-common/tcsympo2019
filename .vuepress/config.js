@@ -12,7 +12,7 @@ module.exports = {
   head: [
     ['link', { href: 'https://use.fontawesome.com/releases/v5.6.1/css/all.css', rel: 'stylesheet' }],
     ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/yakuhanjp@3.0.0/dist/css/yakuhanrp.min.css' }],
-    ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/earlyaccess/mplus1p.css' }],
+    ['link', { rel: 'stylesheet', href: `https://fonts.googleapis.com/css?family=Noto+Sans+JP` }],
     ['link', { rel: 'manifest', href: '/manifest.json'  }],
     ['link', { rel: 'icon', href: 'image/favicon.png'  }],
     [
