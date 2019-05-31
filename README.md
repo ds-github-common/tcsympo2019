@@ -15,7 +15,7 @@ features:
     details: サーバー・クライアント間の依存を減らし、処理を分割して行くことで、より開発とデバッグに集中することができます。また、CMSやサイトジェネレータの選択肢が拡大することで、コンテンツとマーケティングの二つのスタックをメンテナンスする必要性をなくすことができます。
 ---
 
-<img src="https://cdn.canner.io/images/home/flow.gif"></img>
+![](https://cdn.canner.io/images/home/flow.gif)
 
 ```bash
 # ローカルホストを立ち上げるまでの最短操作

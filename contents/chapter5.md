@@ -88,7 +88,7 @@ Project creation is only available from the Firebase Console
 Please visit https://console.firebase.google.com to create a new project, then run firebase use --add
 ```
 
-8. [Firebase console](https://console.firebase.google.com)（https://console.firebase.google.com）に移動して、Googleアカウントでログインする。
+8. [Firebase console](https://console.firebase.google.com)（https://console.firebase.google.com）をブラウザで表示して、Googleアカウントでログインする。
 ![Image from Gyazo](https://i.gyazo.com/e56e14d15b660f2b61c4156b79307354.png)
 
-9. 
+9. **プロジェクトを追加**をクリックする。
