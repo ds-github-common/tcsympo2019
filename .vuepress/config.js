@@ -7,7 +7,8 @@ module.exports = {
     }
   },
   plugins: ['@vuepress/back-to-top'],
-  description: 'Webマニュアル30分マニュアル',
+  title: 'Webマニュアル30分マニュアル',
+  description: 'MarkdownにJAMstackを添えて',
   head: [
     ['link', { href: 'https://use.fontawesome.com/releases/v5.6.1/css/all.css', rel: 'stylesheet' }],
     ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/yakuhanjp@3.0.0/dist/css/yakuhanrp.min.css' }],
