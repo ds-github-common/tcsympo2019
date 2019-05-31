@@ -23,7 +23,7 @@ module.exports = {
     ]
   ],
   themeConfig: {
-    logo: 'https://www.science.co.jp/wordpress/wp-content/themes/humanscience/common/img/logo.jpg',
+    logo: 'image/hs-logo.svg',
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Get Started', link: '/contents/' },
