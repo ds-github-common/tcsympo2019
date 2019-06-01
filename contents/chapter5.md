@@ -180,7 +180,7 @@ Project Console: https://console.firebase.google.com/project/jamstack-xxxx/overv
 Hosting URL: https://jamstack-xxxx.firebaseapp.com
 ```
 
-5. **Hosting URL:**の右側に表示されたURLをブラウザで表示する。
+5. **Hosting URL:** の右側に表示されたURLをブラウザで表示する。
 ![Image from Gyazo](https://i.gyazo.com/5ff70da294133363ade70264b1505e35.png)
 
 無事にWeb公開されたことが確認できます。
