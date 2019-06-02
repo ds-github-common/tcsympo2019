@@ -1,5 +1,6 @@
 module.exports = {
   serviceWorker: true,
+  ga: '141192052',
   markdown: {
     lineNumbers: true,
     config: md => {
@@ -57,6 +58,12 @@ module.exports = {
     displayAllHeaders: true,
     sidebarDepth: 2,
     lastUpdated: '最終更新日',
+    serviceWorker: {
+      updatePopup: {
+        message: "コンテンツが更新されました。",
+        buttonText: "Refresh"
+      }
+    }
   },
   postcss: {
     plugins: [
