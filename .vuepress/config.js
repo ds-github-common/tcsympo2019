@@ -33,7 +33,8 @@ module.exports = {
     ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/yakuhanjp@3.0.0/dist/css/yakuhanrp.min.css' }],
     ['link', { rel: 'stylesheet', href: `https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700&amp;subset=japanese` }],
     ['link', { rel: 'manifest', href: '/manifest.json'  }],
-    ['link', { rel: 'icon', href: 'image/favicon.png'  }],
+    ['link', { rel: 'icon', href: 'image/favicon-512x512.png'  }],
+    ['link', { rel: 'apple-touch-icon', href: 'image/favicon-192x192.png' }],
     [
       'link',
       {
