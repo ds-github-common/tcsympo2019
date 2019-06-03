@@ -7523,6 +7523,11 @@ slide@^1.1.5:
   resolved "https://registry.yarnpkg.com/slide/-/slide-1.1.6.tgz#56eb027d65b4d2dce6cb2e2d32c4d4afc9e1d707"
   integrity sha1-VusCfWW00tzmyy4tMsTUr8nh1wc=
 
+smoothscroll-polyfill@^0.4.3:
+  version "0.4.4"
+  resolved "https://registry.yarnpkg.com/smoothscroll-polyfill/-/smoothscroll-polyfill-0.4.4.tgz#3a259131dc6930e6ca80003e1cb03b603b69abf8"
+  integrity sha512-TK5ZA9U5RqCwMpfoMq/l1mrH0JAR7y7KRvOBx0n2869aLxch+gT9GhN3yUfjiw+d/DiF1mKo14+hd62JyMmoBg==
+
 snapdragon-node@^2.0.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/snapdragon-node/-/snapdragon-node-2.1.1.tgz#6c175f86ff14bdb0724563e8f3c1b021a286853b"
@@ -8614,6 +8619,13 @@ vuepress-plugin-container@^2.0.0:
 "vuepress-plugin-hotjar@git+ssh://git@github.com:simonwjackson/vuepress-plugin-hotjar.git":
   version "1.0.0"
   resolved "git+ssh://git@github.com:simonwjackson/vuepress-plugin-hotjar.git#d45215f03b9cca61adf3a3e65dd8ba371f3c0699"
+
+vuepress-plugin-smooth-scroll@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-smooth-scroll/-/vuepress-plugin-smooth-scroll-0.0.3.tgz#6eff2d4c186cca917cc9f7df2b0af7de7c8c6438"
+  integrity sha512-qsQkDftLVFLe8BiviIHaLV0Ea38YLZKKonDGsNQy1IE0wllFpFIEldWD8frWZtDFdx6b/O3KDMgVQ0qp5NjJCg==
+  dependencies:
+    smoothscroll-polyfill "^0.4.3"
 
 vuepress@^1.0.0-alpha.48:
   version "1.0.0-alpha.48"
