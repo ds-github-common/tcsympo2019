@@ -30,7 +30,7 @@ module.exports = {
     ]
   ],
   themeConfig: {
-    logo: 'image/hs-logo.svg',
+    logo: 'https://i.gyazo.com/6de93278653da44a9def69cd44933cc8.png',
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Get Started', link: '/contents/' },
