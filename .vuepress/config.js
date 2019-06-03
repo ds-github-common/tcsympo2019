@@ -13,7 +13,8 @@ module.exports = {
     },
     '@vuepress/back-to-top': true,
     'vuepress-plugin-smooth-scroll': true,
-    '@vuepress/pwa': true
+    '@vuepress/pwa': true,
+    '@vuepress/medium-zoom'
   },
   title: 'Webマニュアル30分マニュアル',
   description: 'MarkdownにJAMstackを添えて',
