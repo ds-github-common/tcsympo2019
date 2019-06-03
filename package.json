@@ -5,6 +5,8 @@
   "license": "MIT",
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.0.0-alpha.48",
+    "@vuepress/plugin-google-analytics": "^1.0.0-alpha.48",
+    "vuepress-plugin-hotjar": "git+ssh://git@github.com:simonwjackson/vuepress-plugin-hotjar.git",
     "firebase-tools": "^6.10.0",
     "markdown-it-fontawesome": "^0.3.0",
     "tailwindcss": "^0.7.4",

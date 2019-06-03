@@ -7,7 +7,11 @@ module.exports = {
       md.use(require('markdown-it-fontawesome'))
     }
   },
-  plugins: {'@vuepress/back-to-top': true},
+  plugins: {
+    'vuepress-plugin-hotjar': {
+      id: 1346481
+    }
+  },
   title: 'Webマニュアル30分マニュアル',
   description: 'MarkdownにJAMstackを添えて',
   head: [
