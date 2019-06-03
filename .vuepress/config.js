@@ -13,7 +13,13 @@ module.exports = {
     },
     '@vuepress/back-to-top': true,
     'vuepress-plugin-smooth-scroll': true,
-    '@vuepress/pwa': true,
+		'@vuepress/pwa': {
+			serviceWorker: true,
+			updatePopup: {
+				message: "コンテンツが更新されました",
+				buttonText: "リフレッシュ"
+			}
+		},
     '@vuepress/medium-zoom': true,
     '@vuepress/google-analytics': {
       'ga': '141192052'
@@ -25,7 +31,7 @@ module.exports = {
   head: [
     ['link', { href: 'https://use.fontawesome.com/releases/v5.6.1/css/all.css', rel: 'stylesheet' }],
     ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/yakuhanjp@3.0.0/dist/css/yakuhanrp.min.css' }],
-    ['link', { rel: 'stylesheet', href: `https://fonts.googleapis.com/css?family=Noto+Sans+JP` }],
+    ['link', { rel: 'stylesheet', href: `https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700&amp;subset=japanese` }],
     ['link', { rel: 'manifest', href: '/manifest.json'  }],
     ['link', { rel: 'icon', href: 'image/favicon.png'  }],
     [
@@ -83,12 +89,6 @@ module.exports = {
     displayAllHeaders: true,
     sidebarDepth: 2,
     lastUpdated: '最終更新日',
-    serviceWorker: {
-      updatePopup: {
-        message: "コンテンツが更新されました。",
-        buttonText: "Refresh"
-      }
-    }
   },
   postcss: {
     plugins: [
