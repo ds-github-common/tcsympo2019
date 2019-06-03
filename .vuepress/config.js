@@ -30,6 +30,7 @@ module.exports = {
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Get Started', link: '/contents/' },
+      { text: 'Additional Info.', link: '/slide'},
       {
         text: 'About',
         items: [
@@ -49,12 +50,23 @@ module.exports = {
     ],
     sidebar: [
       '/',
-      '/contents/',
-      '/contents/chapter1',
-      '/contents/chapter2',
-      '/contents/chapter3',
-      '/contents/chapter4',
-      '/contents/chapter5'
+      {
+        title: 'Get Started',
+        children: [
+          '/contents/',
+          '/contents/chapter1',
+          '/contents/chapter2',
+          '/contents/chapter3',
+          '/contents/chapter4',
+          '/contents/chapter5'
+        ]
+      },
+      {
+        title: 'Additional Info.',
+        children: [
+          'slide'
+        ]
+      }
     ],
     displayAllHeaders: true,
     sidebarDepth: 2,

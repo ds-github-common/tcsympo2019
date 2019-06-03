@@ -7,11 +7,6 @@
 
 本サイトを再現するために必要な環境と手順をここに記載します。ご興味があれば、ここで紹介するシステム構成を使ってご自身独自のサイトを作成して公開してみてください。
 
-## TCシンポジウム2019のスライド
-TCシンポジウム2019の発表で使用したスライドです。
-
-<div style="margin: 1rem; left: 0; width: 100%; height: 0; position: relative; padding-bottom: 75%;"><iframe src="//speakerdeck.com/player/7dd2b88143d945aab76ff185cad9b51a" style="filter: drop-shadow(3px 3px 3px rgba(0,0,0,0.6)); border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" allowfullscreen scrolling="no" allow="autoplay; encrypted-media"></iframe></div> 
-
 ## 環境準備
 下記の環境を前提としてWebマニュアル作成の手順を説明します。
 - **OS**：Windows/MacOS
