@@ -4,15 +4,17 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "@vuepress/plugin-back-to-top": "^1.0.0-alpha.48",
     "firebase-tools": "^6.10.0",
     "markdown-it-fontawesome": "^0.3.0",
     "tailwindcss": "^0.7.4",
     "vue-script2": "^2.0.3",
-    "vuepress": "^0.14.11"
+    "vuepress": "^1.0.0-alpha.48"
   },
   "scripts": {
     "dev": "vuepress dev",
     "build": "vuepress build"
+  },
+  "dependencies": {
+    "@vuepress/plugin-back-to-top": "^1.0.0-alpha.48"
   }
 }

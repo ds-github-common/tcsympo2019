@@ -1,0 +1,88 @@
+$accentColor = #5b3cc4
+$textColor = #5b5777
+$borderColor = #eaecef
+$codeBgColor = #364b75
+$navbarHeight = 3.5rem
+$arrowBgColor = #ddd
+
+header-color = #5b5777
+header-bgcolor = rgba(255,255,255,0.7) 
+
+html
+  overflow-y scroll
+
+body
+  font-size 1.2rem
+  font-family 'Noto Sans JP', sans-serif
+    -webkit-font-smoothing antialiased
+    -moz-osx-font-smoothing grayscale
+    
+.navbar
+  background-color header-bgcolor
+  color header-color
+  box-shadow 0 0 15px 0 rgba(0,0,0,.04)
+  backdrop-filter blur(2px) 
+
+.navbar .site-name
+  color header-color
+
+span.site-name.can-hide
+  display: none!important
+
+.nav-links a.router-link-active
+  color #5b3cc4
+
+.nav-item > a:not(.external):hover, .nav-item > a:not(.external).router-link-active
+
+.navbar .links
+  background-color initial
+
+.dropdown-wrapper .nav-dropdown .dropdown-item
+  color black 
+
+.sidebar
+  background-color #f5f7fb
+
+.page
+  background-color #fdfdfd
+
+h1
+  padding 15px
+  padding-left 0
+  color #5b3cc4
+
+h2
+  font-size 1.7rem
+
+h3
+  font-size 1.4rem
+  color #5b3cc4
+
+
+div[class*="language-"]
+  background-color #22355d
+
+.content code
+  background-color #76889a
+  color white
+  font-size 1rem
+
+.sidebar-group-items > li
+  padding-top .5rem!important
+  border-top #e2e7f1 1px solid
+
+.custom-block.warning
+  background-color rgba(255, 136, 136, 0.3)
+  color #5b5777
+
+.custom-block.tip, .custom-block.warning, .custom-block.danger
+  border-left-width initial
+  border-left-style initial
+  margin 1.5rem
+
+.custom-block.tip, .custom-block.warning, .custom-block.danger
+  .custom-block-title
+    color #21355d
+
+.sidebar-sub-headers
+  padding-bottom .5rem!important
