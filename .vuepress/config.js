@@ -7,7 +7,7 @@ module.exports = {
       md.use(require('markdown-it-fontawesome'))
     }
   },
-  plugins: ['@vuepress/back-to-top'],
+  plugins: {'@vuepress/back-to-top': true},
   title: 'Webマニュアル30分マニュアル',
   description: 'MarkdownにJAMstackを添えて',
   head: [
