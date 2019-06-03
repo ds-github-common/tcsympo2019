@@ -3,8 +3,13 @@
   "short_name": "Webマニュアル30分クッキング",
   "icons": [
     {
-      "src": "image/favicon.png",
+      "src": "image/favicon-512x512.png",
       "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "image/favicon-192x192.png",
+      "sizes": "192x192",
       "type": "image/png"
     }
   ],
