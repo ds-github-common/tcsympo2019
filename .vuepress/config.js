@@ -17,7 +17,8 @@ module.exports = {
     '@vuepress/medium-zoom': true,
     '@vuepress/google-analytics': {
       'ga': '141192052'
-    }
+    },
+    '@vuepress/nprogress': true
   },
   title: 'Webマニュアル30分マニュアル',
   description: 'MarkdownにJAMstackを添えて',
