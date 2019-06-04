@@ -25,7 +25,11 @@ module.exports = {
     },
     '@vuepress/nprogress': true
   },
-  lang: 'jp',
+  locales: {
+    '/': {
+      lang: 'ja',
+    }
+  },
   title: 'Webマニュアル30分マニュアル',
   description: 'MarkdownにJAMstackを添えて',
   head: [
