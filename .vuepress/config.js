@@ -38,7 +38,7 @@ module.exports = {
     ['link', { rel: 'apple-touch-startup-image', media: '(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2)', href: 'image/apple-launch-828x1792.png' }],
     ['link', { rel: 'apple-touch-startup-image', media: '(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)', href: 'image/apple-launch-1125x2436.png' }],
     ['link', { rel: 'apple-touch-startup-image', media: '(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3)', href: 'image/apple-launch-1242x2208.png' }],
-    ['link', { rel: 'apple-touch-startup-image', media: '(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)', href: 'image/apple-launch-750x1334.png' }],
+    ['link', { rel: 'apple-touch-startup-image', media: '(device-width: 375px) and (-webkit-device-pixel-ratio: 2)', href: 'image/apple-launch-750x1334.png' }],
     ['link', { rel: 'apple-touch-startup-image', media: '(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2)', href: 'image/apple-launch-2048x2732.png' }],
     ['link', { rel: 'apple-touch-startup-image', media: '(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2)', href: 'image/apple-launch-1668x2388.png' }],
     ['link', { rel: 'apple-touch-startup-image', media: '(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2)', href: 'image/apple-launch-1668x2224.png' }],
