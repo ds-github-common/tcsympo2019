@@ -25,7 +25,6 @@ module.exports = {
     },
     '@vuepress/nprogress': true
   },
-  base: '/',
   locales: {
     '/': {
       lang: 'ja',
