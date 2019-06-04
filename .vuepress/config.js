@@ -1,6 +1,5 @@
 module.exports = {
   serviceWorker: true,
-  ga: '141192052',
   markdown: {
     lineNumbers: true,
     config: md => {
@@ -17,12 +16,12 @@ module.exports = {
 			serviceWorker: true,
 			updatePopup: {
 				message: "コンテンツが更新されました",
-				buttonText: "リフレッシュ"
+				buttonText: "Refresh"
 			}
 		},
     '@vuepress/medium-zoom': true,
     '@vuepress/google-analytics': {
-      'ga': '141192052'
+      'ga': 'UA-141384973-1'
     },
     '@vuepress/nprogress': true
   },
