@@ -1,7 +1,7 @@
 ---
 home: true
 heroText: Webマニュアル30分クッキング
-tagline: 〜MarkdownにJAMstackを添えて〜
+tagline: MarkdownにJAMstackを添えて
 heroImage: 'https://www.jtca.org/image/jtcalogo.gif'
 actionText: Get Started →
 actionLink: /contents/
@@ -31,4 +31,3 @@ $ yarn vuepress dev
 ```
 
 ### JAMstack構成イメージ
-![](https://cdn.canner.io/images/home/flow.gif)
