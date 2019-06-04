@@ -15,12 +15,19 @@ features:
     details: もうDTPやHTMLコーディングに特別な知識は必要ありません。簡単な記法でライティングし、Gitにデータをプッシュすれば、自動でレンダリング済みのHTMLと組版済みのPDFが出力され、なんとデプロイまで自動化することができるのです。
 ---
 
-![](https://cdn.canner.io/images/home/flow.gif)
-
+### VuePressスタートアップ
 ```bash
-# ローカルホストを立ち上げるまでの最短操作
+# yarnの初期化
 $ yarn init
+
+# VuePressのインストール
 $ yarn add -D vuepress
+
+# README.mdファイルの作成
 $ echo "Hello Vuepress" > README.md
+
+# ローカルサーバー起動
 $ yarn vuepress dev
 ```
+
+![](https://cdn.canner.io/images/home/flow.gif)
