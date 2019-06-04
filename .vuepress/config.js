@@ -55,6 +55,10 @@ module.exports = {
     ]
   ],
   themeConfig: {
+    algolia: {
+      apiKey: '1a5acd70166be3aafc20c49ed98c53ef',
+      indexName: 'tcsympo2019_test'
+    },
     logo: 'https://i.gyazo.com/6de93278653da44a9def69cd44933cc8.png',
     nav: [
       { text: 'Home', link: '/' },
