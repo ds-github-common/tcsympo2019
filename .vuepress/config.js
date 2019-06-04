@@ -69,7 +69,6 @@ module.exports = {
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Get Started', link: '/contents/' },
-      { text: 'Additional Info.', link: '/slide'},
       {
         text: 'About',
         items: [

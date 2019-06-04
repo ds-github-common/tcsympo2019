@@ -32,7 +32,7 @@
 
 [node.js 公式サイト](https://nodejs.org/ja/)
 
-![Image from Gyazo](https://i.gyazo.com/d5ae359cb1980a6f1fdafa4de48be153.png)
+![Image from Gyazo](https://i.gyazo.com/363a88bb6f155db780ef026c6a34ff71.png)
 
 2. コマンドラインツール（Windowsであればコマンドプロンプト、Macであればターミナル）を開く。
 3. node.jsおよびnpmがインストールされたことを確認する。
