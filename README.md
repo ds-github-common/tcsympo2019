@@ -15,6 +15,10 @@ features:
     details: もうDTPやHTMLコーディングに特別な知識は必要ありません。簡単な記法でライティングし、Gitにデータをプッシュすれば、自動でレンダリング済みのHTMLと組版済みのPDFが出力され、なんとデプロイまで自動化することができるのです。
 ---
 
+<div class="bg-fixed sm:bg-local md:bg-scroll lg:bg-local xl:bg-fixed">
+   <i class="fas fa-rocket"></i>
+</div>
+
 ### VuePressスタートアップ
 ```bash
 # yarnの初期化
