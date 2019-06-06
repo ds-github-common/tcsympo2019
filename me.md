@@ -14,20 +14,13 @@ sidebar: false
 簡易なプログラムはPythonでほぼ行なっています。Pythonで書いたBotで仮想通貨の取引を自動でさせていますが、値動きが気になってチャートを見ては毎日コードを書き換えているので、結局手動の取引と変わらない工数がかかっています。
 
 <div class="border-t-8 border-orange">
-  
   <div class="min-h-screen mx-auto flex flex-col justify-center items-center bg-grey-lightest">
-    
     <div class="max-w-sm rounded rounded-lg overflow-hidden shadow-lg bg-white">
-      
       <div class="relative">
-        <img class="w-full" 
-             src="./me.png">
-        
+        <img class="w-full" src="./me.png">
         <img class="w-24 rounded rounded-full border-4 border-white absolute pin-l pin-b -mb-8 ml-4" 
              src="https://pbs.twimg.com/profile_images/928848235761987584/rCxsPEFo_400x400.jpg">
-      </div>          
-      
-      
+      </div>
       <div class="px-6 py-8">
         <h2 class="">Chris Perko</h2>
         <a href="https://twitter.com/ChrisJPerko" class="no-underline text-grey hover:underline">
@@ -50,8 +43,6 @@ sidebar: false
              href="http://ChrisPerko.net">ChrisPerko.NET</a>
         </div>
       </div>
-      
     </div>
-    
-  </div> <!-- end flex -->
+  </div>
 </div>
