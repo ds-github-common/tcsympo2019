@@ -3,6 +3,7 @@
 
 ## リモートリポジトリを作成する
 1. [GitHub](https://github.com/)にアクセスしログインする。
+
 1. **Repositries**の**New**ボタンをクリックする。
 ![Image from Gyazo](https://i.gyazo.com/2b0e3f8e1d7209b1de5120d4db891a77.png)
 
