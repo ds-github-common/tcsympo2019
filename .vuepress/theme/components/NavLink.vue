@@ -4,7 +4,15 @@
     :to="link"
     v-if="!isExternal(link)"
     :exact="exact"
-  >{{ item.text }}</router-link>
+  >
+  <i
+    v-if="this.item.awesome"
+    :class="this.item.awesome"
+    class="nav-awesome"
+  >
+  </i>
+    {{ item.text }}
+  </router-link>
   <a
     v-else
     :href="link"
@@ -12,6 +20,12 @@
     :target="isMailto(link) || isTel(link) ? null : '_blank'"
     :rel="isMailto(link) || isTel(link) ? null : 'noopener noreferrer'"
   >
+  <i
+    v-if="this.item.awesome"
+    :class="this.item.awesome"
+    class="nav-awesome"
+  >
+  </i>
     {{ item.text }}
     <OutboundLink/>
   </a>

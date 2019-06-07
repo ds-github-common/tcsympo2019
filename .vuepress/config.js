@@ -58,22 +58,22 @@ module.exports = {
     },
     logo: 'https://i.gyazo.com/6de93278653da44a9def69cd44933cc8.png',
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Get Started', link: '/contents/' },
+      { text: '', link: '/', awesome: 'fas fa-home' },
+      { text: 'Get Started', link: '/contents/'  },
       {
         text: 'About',
         items: [
-          { text: 'Profile', link: '/me' },
-          { text: 'Company', link: '/about'}
+          { text: 'Profile', link: '/me', awesome: 'fas fa-id-card-alt' },
+          { text: 'Company', link: '/about', awesome: 'far fa-building' }
         ]
       },
       {
         text: 'SNS',
         items: [
-          { text: 'GitHub', link: 'https://github.com/hs-yonekura/tcsympo2019' },
-          { text: 'Slack', link: 'https://join.slack.com/t/jamstackhq/shared_invite/enQtNjU0ODk3MDIwOTE4LWE3ZTgzYjRlNzk4YjAyYzJhM2IzZjk5YjIxZDRmMTQ1YWFiYjRlOTgyMGE0OTk3YWVlODMxNDk5Njc3N2YwZmE' },
-          { text: 'Twitter', link: 'https://twitter.com/yuukikun31' },
-          { text: 'Line', link: 'http://line.naver.jp/ti/p/pWQDiJosnD' }
+          { text: 'GitHub', link: 'https://github.com/hs-yonekura/tcsympo2019', awesome: 'fab fa-github' },
+          { text: 'Slack', link: 'https://join.slack.com/t/jamstackhq/shared_invite/enQtNjU0ODk3MDIwOTE4LWE3ZTgzYjRlNzk4YjAyYzJhM2IzZjk5YjIxZDRmMTQ1YWFiYjRlOTgyMGE0OTk3YWVlODMxNDk5Njc3N2YwZmE', awesome: 'fab fa-slack' },
+          { text: 'Twitter', link: 'https://twitter.com/yuukikun31', awesome: 'fab fa-twitter' },
+          { text: 'Line', link: 'http://line.naver.jp/ti/p/pWQDiJosnD', awesome: 'fab fa-line' }
         ]
       }
     ],
