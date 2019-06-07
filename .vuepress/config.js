@@ -23,7 +23,8 @@ module.exports = {
     '@vuepress/google-analytics': {
       'ga': 'UA-141384973-1'
     },
-    '@vuepress/nprogress': true
+    '@vuepress/nprogress': true,
+    'vuepress-plugin-export': true
   },
   locales: {
     '/': {
