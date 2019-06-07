@@ -87,7 +87,8 @@ module.exports = {
           '/contents/chapter2',
           '/contents/chapter3',
           '/contents/chapter4',
-          '/contents/chapter5'
+          '/contents/chapter5',
+          '/contents/chapter6'
         ]
       },
       {

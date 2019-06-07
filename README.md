@@ -7,17 +7,16 @@ actionText: Get Started →
 actionLink: /contents/
 footer: TC Symposium 2019 | Copyright © Human Science co., ltd.
 features:
-  - title: Faster
+  - awesome: fas fa-rocket
+    title: Faster
     details: Webサイトの読み込みに3秒以上かかると、53％の閲覧者が離脱します。Webサイトのパフォーマンスはコンテンツの品質以上に大事な要素です。またここでいう「早さ」とはWebサイト構築にかかるリードタイムの短さも含みます。
-  - title: Cheaper
+  - awesome: fas fa-money-bill-wave
+    title: Cheaper
     details: もう高価なシステムは必要ありません。OSS（オープンソース）や、Webサービスの無料枠をうまく使うことで限りなく「安く」Webマニュアルを構築できます。特定の機能に特化したマイクロサービスを組み合わせて使うことで、モダンな技術のヨイトコドリができるのです。
-  - title: Easier
+  - awesome: fas fa-american-sign-language-interpreting
+    title: Easier
     details: もうDTPやHTMLコーディングに特別な知識は必要ありません。簡単な記法でライティングし、Gitにデータをプッシュすれば、自動でレンダリング済みのHTMLと組版済みのPDFが出力され、なんとデプロイまで自動化することができるのです。
 ---
-
-<div class="bg-fixed sm:bg-local md:bg-scroll lg:bg-local xl:bg-fixed">
-   <i class="fas fa-rocket"></i>
-</div>
 
 ### VuePressスタートアップ
 ```bash

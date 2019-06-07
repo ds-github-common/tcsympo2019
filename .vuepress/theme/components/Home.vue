@@ -33,7 +33,11 @@
         v-for="(feature, index) in data.features"
         :key="index"
       >
-        <h2>{{ feature.title }}</h2>
+      <h2>
+        <i v-if="feature.awesome" :class="feature.awesome" style="padding-right: 0.3rem; color: #5b3cc4; font-size:2rem;">
+        </i>
+        {{ feature.title }}
+      </h2>
         <p>{{ feature.details }}</p>
       </div>
     </div>
@@ -123,6 +127,7 @@ export default {
       border-bottom none
       padding-bottom 0
       color lighten($textColor, 10%)
+      text-align center
     p
       color lighten($textColor, 25%)
   .footer
