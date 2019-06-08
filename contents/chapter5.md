@@ -43,6 +43,7 @@ Visit this URL on any device to log in:
 ```
 
 4. googleアカウント認証ページで任意のgooleアカウントを選択し、アクセスを**許可**する。
+
 ![Image from Gyazo](https://i.gyazo.com/f9cb8fd39491eb524dd7435bda1064af.png)
 
 ::: tip <i class="fas fa-comments"></i> ヒント
@@ -120,12 +121,15 @@ Please visit https://console.firebase.google.com to create a new project, then r
 ```
 
 8. [Firebase console](https://console.firebase.google.com)（https://console.firebase.google.com）をブラウザで表示して、Googleアカウントでログインする。
+
 ![Image from Gyazo](https://i.gyazo.com/e56e14d15b660f2b61c4156b79307354.png)
 
 9. **プロジェクトを追加**をクリックする。
+
 ![Image from Gyazo](https://i.gyazo.com/5419ac078a6d9604722144e669ae9fbc.png)
 
 10. 任意の**プロジェクト名**を入力し、**測定管理者間のデータ保護条項**にチェックを入れて、**プロジェクトを作成する**をクリックする。
+
 ![Image from Gyazo](https://i.gyazo.com/5e3212e9906943a51f46d4cb9182e3e6.png)
 
 ::: tip <i class="fas fa-comments"></i> ヒント
@@ -133,6 +137,7 @@ Please visit https://console.firebase.google.com to create a new project, then r
 :::
 
 11. プロジェクト準備完了の画面が表示されたら、**次へ**をクリックします。
+
 ![Image from Gyazo](https://i.gyazo.com/5c0df64cf28f00fa426fed095133cc6a.png)
 
 ## Firebaseにデプロイする
@@ -181,6 +186,7 @@ Hosting URL: https://jamstack-xxxx.firebaseapp.com
 ```
 
 5. **Hosting URL:** の右側に表示されたURLをブラウザで表示する。
+
 ![Image from Gyazo](https://i.gyazo.com/5ff70da294133363ade70264b1505e35.png)
 
 無事にWeb公開されたことが確認できます。
