@@ -88,14 +88,14 @@ module.exports = {
           '/contents/chapter2',
           '/contents/chapter3',
           '/contents/chapter4',
-          '/contents/chapter5',
-          '/contents/chapter6'
+          '/contents/chapter5'
         ]
       },
       {
         title: 'Additional Info.',
         children: [
-          'slide'
+          '/addition/',
+          '/additon/chapter6'
         ]
       }
     ],
