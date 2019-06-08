@@ -92,7 +92,7 @@ module.exports = {
         ]
       },
       {
-        title: 'Additional Info.',
+        title: 'Advanced Info.',
         children: [
           '/addition/',
           '/additon/chapter6'
