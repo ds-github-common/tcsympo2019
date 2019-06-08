@@ -24,7 +24,7 @@ features:
 $ yarn init
 
 # VuePressのインストール
-$ yarn add -D vuepress
+$ yarn add -D vuepress@next
 
 # README.mdファイルの作成
 $ echo "Hello Vuepress" > README.md
