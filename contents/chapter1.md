@@ -42,7 +42,7 @@ success Saved package.json
 4. VuePressをインストールする。
 ```bash
 # vuepressパッケージをdevDependenciesにインストールする。
-$ yarn add -D vuepress
+$ yarn add -D vuepress@next
 
 # フォルダ構成
 # .
