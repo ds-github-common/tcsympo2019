@@ -35,7 +35,7 @@ module.exports = {
   description: 'MarkdownにJAMstackを添えて',
   head: [
     ['link', { href: '//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css', rel: 'preload', as: 'style' }],
-      ['link', { href: '//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.woff2?v=4.3.0', rel: 'preload', as: 'font', type: 'font/woff2', crossorigin }],
+    ['link', { href: '//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.woff2?v=4.3.0', rel: 'preload', as: 'font', type: 'font/woff2' }],
     ['link', { rel: 'manifest', href: '/manifest.json' }],
     ['link', { rel: 'icon', href: 'image/favicon-512x512.png' }],
     ['link', { rel: 'apple-touch-icon', href: 'image/favicon-192x192.png' }],
