@@ -34,7 +34,7 @@ module.exports = {
   title: 'Webマニュアル30分マニュアル',
   description: 'MarkdownにJAMstackを添えて',
   head: [
-    ['link', { href: '/fontawesome/css/all.min.css', rel: 'preload' }],
+    ['link', { href: '/fontawesome/css/all.min.css', rel: 'stylesheet' }],
     ['link', { rel: 'manifest', href: '/manifest.json' }],
     ['link', { rel: 'icon', href: 'image/favicon-512x512.png' }],
     ['link', { rel: 'apple-touch-icon', href: 'image/favicon-192x192.png' }],
