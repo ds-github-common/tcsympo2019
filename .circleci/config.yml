@@ -15,13 +15,10 @@ jobs:
           keys:
             - yarn-packages-{{ .Branch }}-{{ checksum "yarn.lock" }}
             - yarn-packages-{{ .Branch }}
-            - yarn-packages-
+            - yarn-packages-s
 
       - run:
-          command: yarn install
-
-      - run:
-          command: yarn add firebase-tools
+          command: yarn installs
 
       - save_cache:
           paths:
