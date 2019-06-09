@@ -34,6 +34,8 @@ module.exports = {
   title: 'Webマニュアル30分マニュアル',
   description: 'MarkdownにJAMstackを添えて',
   head: [
+    ['script', { src: "https://kit.fontawesome.com/f514009732.js" }],
+    ['link', { rel: 'stylesheet', href: `https://fonts.googleapis.com/css?family=Roboto:300,400,700` }],
     ['link', { rel: 'manifest', href: '/manifest.json' }],
     ['link', { rel: 'icon', href: 'image/favicon-512x512.png' }],
     ['link', { rel: 'apple-touch-icon', href: 'image/favicon-192x192.png' }],
