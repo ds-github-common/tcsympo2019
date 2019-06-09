@@ -34,4 +34,4 @@ $ yarn vuepress dev
 ```
 
 ### JAMstack構成イメージ
-![](https://cdn.canner.io/images/home/flow.gif)
+![](/image/flow.gif)
