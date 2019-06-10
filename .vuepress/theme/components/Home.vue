@@ -144,6 +144,7 @@ export default {
   z-index 1
   margin-top 300px
   display block
+  box-sizing border-box
   color #5b5777
 
 .con-copy 
