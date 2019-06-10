@@ -189,6 +189,7 @@ export default {
       padding 0 2.5rem
   .footer
       width 100%!important
+      transform scale(1.5)
 
 @media (max-width: $MQMobileNarrow)
   .home
@@ -212,4 +213,5 @@ export default {
         font-size 1.25rem
   .footer
       width 100%!important
+      transform scale(1.5)
 </style>
