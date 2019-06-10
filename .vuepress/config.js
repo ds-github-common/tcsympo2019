@@ -91,7 +91,7 @@ module.exports = {
         ]
       },
       {
-        title: 'Advanced Info.',
+        title: 'More',
         children: [
           '/addition/',
           '/addition/chapter6'
