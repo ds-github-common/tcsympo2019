@@ -32,12 +32,12 @@
           v-if="prev"
           class="prev"
         >
-          ←
           <router-link
             v-if="prev"
             class="prev"
             :to="prev.path"
           >
+          <i class="fas fa-angle-left" style="padding-left: .3rem;"></i>
             {{ prev.title || prev.path }}
           </router-link>
         </span>
@@ -51,8 +51,8 @@
             :to="next.path"
           >
             {{ next.title || next.path }}
+            <i class="fas fa-angle-right" style="padding-right: .3rem;"></i>
           </router-link>
-          →
         </span>
       </p>
     </div>

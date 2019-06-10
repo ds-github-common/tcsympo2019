@@ -1,56 +1,61 @@
 <template>
-  <main class="home" aria-labelledby="main-title">
-    <header class="hero">
-      <img
-        v-if="data.heroImage"
-        :src="$withBase(data.heroImage)"
-        :alt="data.heroAlt || 'hero'"
-      >
+  <div>
+    <main class="home" aria-labelledby="main-title">
+      <header class="hero">
+        <img
+          v-if="data.heroImage"
+          :src="$withBase(data.heroImage)"
+          :alt="data.heroAlt || 'hero'"
+          >
 
-      <h1 v-if="data.heroText !== null" id="main-title">{{ data.heroText || $title || 'Hello' }}</h1>
+          <h1 v-if="data.heroText !== null" id="main-title">{{ data.heroText || $title || 'Hello' }}</h1>
 
-      <p class="description">
-        {{ data.tagline || $description || 'Welcome to your VuePress site' }}
-      </p>
+          <p class="description">
+          {{ data.tagline || $description || 'Welcome to your VuePress site' }}
+          </p>
 
-      <p
-        class="action"
-        v-if="data.actionText && data.actionLink"
-      >
-        <NavLink
-          class="action-button"
-          :item="actionLink"
-        />
-      </p>
-    </header>
+          <p
+            class="action"
+            v-if="data.actionText && data.actionLink"
+            >
+            <NavLink
+              class="action-button"
+              :item="actionLink"
+              />
+          </p>
+      </header>
 
-    <div
-      class="features"
-      v-if="data.features && data.features.length"
-    >
       <div
-        class="feature"
-        v-for="(feature, index) in data.features"
-        :key="index"
-      >
-      <h2>
-        <i v-if="feature.awesome" :class="feature.awesome" style="padding-right: 0.3rem; color: #5b3cc4; font-size:2rem;">
-        </i>
-        {{ feature.title }}
-      </h2>
+        class="features"
+        v-if="data.features && data.features.length"
+        >
+        <div
+          class="feature"
+          v-for="(feature, index) in data.features"
+          :key="index"
+          >
+          <h2>
+            <i v-if="feature.awesome" :class="feature.awesome" style="padding-right: 0.3rem; color: #5b3cc4; font-size:2rem;">
+            </i>
+          {{ feature.title }}
+          </h2>
         <p>{{ feature.details }}</p>
+        </div>
       </div>
-    </div>
 
-    <Content class="custom"/>
+      <Content class="custom"/>
 
-    <div
+    </main>
+    <footer
       class="footer"
       v-if="data.footer"
-    >
-      {{ data.footer }}
-    </div>
-  </main>
+      >
+      <svg data-v-26858124="" xmlns="http://www.w3.org/2000/svg" viewBox="4209.3 4660 1514.932 404" class="svg-piso"><defs data-v-26858124=""></defs> <path data-v-26858124="" id="Path_1901" data-name="Path 1901" d="M-77.7,67.7s180-205.4,964-48,501.3-84,501.3-84l20.4,404H0Z" transform="translate(4287 4724.3)" class="cls-1-piso"></path></svg>
+      <div class="con-copy">
+        {{ data.footer }}
+      </div>
+    </footer>
+  </div>
 </template>
 
 <script>
@@ -130,11 +135,50 @@ export default {
       text-align center
     p
       color lighten($textColor, 25%)
-  .footer
-    padding 2.5rem
-    border-top 1px solid $borderColor
-    text-align center
-    color lighten($textColor, 25%)
+
+.footer
+  position relative
+  width 100%
+  height auto
+  background-color #110d26
+  z-index 1
+  margin-top 300px
+  display block
+  color #5b5777
+
+.con-copy 
+  position absolute
+  right 20px
+  bottom 15px
+  color white
+  z-index 500
+  display block
+  font-size 12px
+  padding-right 30px
+
+.svg-piso
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	top: 0;
+	display: block;
+	left: -6%;
+	position: absolute;
+	width: 112%;
+	z-index: 10;
+
+.inner a:hover
+  background-color #5b3cc41a
+  border 1px solid #5b3cc44d
+  color #5b3cc4
+
+.inner a
+  transition all .5s ease
+  border 1px solid rgba(0,0,0,.1)
+  border-radius 15px
+  font-size .85rem
+  padding 4px 10px
+  background-color #fff
+  color #00000099
 
 @media (max-width: $MQMobile)
   .home
