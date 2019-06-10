@@ -5,7 +5,7 @@ tagline: MarkdownにJAMstackを添えて
 heroImage: 'https://www.jtca.org/image/jtcalogo.gif'
 actionText: Get Started →
 actionLink: /contents/
-footer: TC Symposium 2019 | Copyright © Human Science co., ltd.
+footer: © Human Science co., ltd.
 features:
   - awesome: fas fa-rocket
     title: Faster
