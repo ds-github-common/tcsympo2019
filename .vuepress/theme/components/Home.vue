@@ -54,10 +54,10 @@
         {{ data.footer }}
       </div>
       <div class="con-copy">
-        <a href="https://github.com/hs-yonekura/tcsympo2019" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="nav-awesome fab fa-github" style="font-size: 1rem; padding:0 0.5rem;"></i></a>
-        <a href="https://join.slack.com/t/jamstackhq/shared_invite/enQtNjU0ODk3MDIwOTE4LWE3ZTgzYjRlNzk4YjAyYzJhM2IzZjk5YjIxZDRmMTQ1YWFiYjRlOTgyMGE0OTk3YWVlODMxNDk5Njc3N2YwZmE" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="nav-awesome fab fa-slack" style="font-size: 1rem; padding-right:0.5rem;"></i></a>
-        <a href="https://twitter.com/yuukikun31" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="nav-awesome fab fa-twitter" style="font-size: 1rem; padding-right: 0.5rem;"></i></a>
-        <a href="http://line.naver.jp/ti/p/pWQDiJosnD" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="nav-awesome fab fa-line" style="font-size: 1rem;"></i></a>
+        <a href="https://github.com/hs-yonekura/tcsympo2019" target="_blank" rel="noopener noreferrer" class="github"><i class="footer-awesome fab fa-github" style="font-size: 1rem; padding:0 0.5rem;"></i></a>
+        <a href="https://join.slack.com/t/jamstackhq/shared_invite/enQtNjU0ODk3MDIwOTE4LWE3ZTgzYjRlNzk4YjAyYzJhM2IzZjk5YjIxZDRmMTQ1YWFiYjRlOTgyMGE0OTk3YWVlODMxNDk5Njc3N2YwZmE" target="_blank" rel="noopener noreferrer" class="slack"><i class="footer-awesome fab fa-slack" style="font-size: 1rem; padding-right:0.5rem;"></i></a>
+        <a href="https://twitter.com/yuukikun31" target="_blank" rel="noopener noreferrer" class="twitter"><i class="footer-awesome fab fa-twitter" style="font-size: 1rem; padding-right: 0.5rem;"></i></a>
+        <a href="http://line.naver.jp/ti/p/pWQDiJosnD" target="_blank" rel="noopener noreferrer" class="line"><i class="footer-awesome fab fa-line" style="font-size: 1rem;"></i></a>
       </div>
     </footer>
   </div>
@@ -162,6 +162,9 @@ export default {
   margin: 0;
   padding: .5rem 1rem;
 
+.footer-awesome
+  color #9c88de
+
 .svg-piso
 	-webkit-transform: translateY(-50%);
 	transform: translateY(-50%);
@@ -188,6 +191,18 @@ export default {
 
 .home-wrap
   overflow hidden
+
+.github:hover
+  color #0000ff
+
+.slack:hover
+  color #4A154B
+
+.twitter:hover
+  color #1DA1F2
+
+.line:hover
+  color #00c300
 
 @media (max-width: $MQMobile)
   .home
