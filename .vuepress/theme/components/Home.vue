@@ -164,6 +164,7 @@ export default {
 
 .footer-awesome
   color #9c88de
+  transition all .5s ease-out
 
 .svg-piso
 	-webkit-transform: translateY(-50%);
@@ -192,16 +193,16 @@ export default {
 .home-wrap
   overflow hidden
 
-.github:hover
+i.footer-awesome.fab.fa-github:hover
   color #0000ff
 
-.slack:hover
+i.footer-awesome.fab.fa-slack:hover
   color #4A154B
 
-.twitter:hover
+i.footer-awesome.fab.fa-twitter:hover
   color #1DA1F2
 
-.line:hover
+i.footer-awesome.fab.fa-line:hover
   color #00c300
 
 @media (max-width: $MQMobile)
