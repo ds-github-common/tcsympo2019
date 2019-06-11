@@ -145,7 +145,7 @@ export default {
   position relative
   width 100%
   height auto
-  background-color #fbfbff
+  background-color #fff
   z-index 1
   margin-top 100px
   display: flex;
@@ -156,7 +156,7 @@ export default {
 .con-copy
   left 50px
   bottom 15px
-  color #d0c2fd
+  color #5b3cc4
   z-index 500
   font-size .85rem
   margin: 0;
