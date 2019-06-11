@@ -52,11 +52,11 @@
       >
       <svg data-v-26858124="" xmlns="http://www.w3.org/2000/svg" viewBox="4209.3 4660 1514.932 404" class="svg-piso"><defs data-v-26858124=""></defs> <path data-v-26858124="" id="Path_1901" data-name="Path 1901" d="M-77.7,67.7s180-205.4,964-48,501.3-84,501.3-84l20.4,404H0Z" transform="translate(4287 4724.3)" class="cls-1-piso"></path></svg>
       <p class="con-copy">
-        <a href="https://github.com/hs-yonekura/tcsympo2019" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="nav-awesome fab fa-github" style="padding-right:0.3rem;"></i></a>
-        <a href="https://join.slack.com/t/jamstackhq/shared_invite/enQtNjU0ODk3MDIwOTE4LWE3ZTgzYjRlNzk4YjAyYzJhM2IzZjk5YjIxZDRmMTQ1YWFiYjRlOTgyMGE0OTk3YWVlODMxNDk5Njc3N2YwZmE" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="nav-awesome fab fa-slack" style="padding-right:0.3rem;"></i></a>
-        <a href="https://twitter.com/yuukikun31" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="nav-awesome fab fa-twitter"></i></a>
-        <a href="http://line.naver.jp/ti/p/pWQDiJosnD" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="nav-awesome fab fa-line"></i></a>
         {{ data.footer }}
+        <a href="https://github.com/hs-yonekura/tcsympo2019" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="nav-awesome fab fa-github" style="padding:0 2rem; color:#ffd902;"></i></a>
+        <a href="https://join.slack.com/t/jamstackhq/shared_invite/enQtNjU0ODk3MDIwOTE4LWE3ZTgzYjRlNzk4YjAyYzJhM2IzZjk5YjIxZDRmMTQ1YWFiYjRlOTgyMGE0OTk3YWVlODMxNDk5Njc3N2YwZmE" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="nav-awesome fab fa-slack" style="padding-right:0.3rem; color: #fd58fd;"></i></a>
+        <a href="https://twitter.com/yuukikun31" target="_blank" rel="noopener noreferrer" class="nav-link external" style="padding-right:.3rem; color: #7474fd;"><i class="nav-awesome fab fa-twitter"></i></a>
+        <a href="http://line.naver.jp/ti/p/pWQDiJosnD" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="nav-awesome fab fa-line" style="color: #76e876;"></i></a>
       </p>
     </footer>
   </div>
@@ -153,13 +153,12 @@ export default {
 
 .con-copy 
   position absolute
-  right 100px
+  left 30px
   bottom 15px
   color white
   z-index 500
   display block
   font-size .85rem
-  padding-right 30px
 
 .svg-piso
 	-webkit-transform: translateY(-50%);
