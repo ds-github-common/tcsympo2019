@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="home-wrap">
     <main class="home" aria-labelledby="main-title">
       <header class="hero">
         <img
@@ -180,6 +180,9 @@ export default {
   padding 4px 10px
   background-color #fff
   color #00000099
+
+.home-wrap
+  overflow hidden
 
 @media (max-width: $MQMobile)
   .home
