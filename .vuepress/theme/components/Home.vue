@@ -191,6 +191,9 @@ export default {
   .footer
       width 100%!important
       transform scale(1.5)
+      position static
+      text-align: center;
+      padding 10px 0
 
 @media (max-width: $MQMobileNarrow)
   .home
@@ -215,4 +218,7 @@ export default {
   .footer
       width 100%!important
       transform scale(1.5)
+      position static
+      text-align: center;
+      padding 10px 0
 </style>
