@@ -151,6 +151,7 @@ export default {
   display: flex;
   justify-content: space-between;
   box-sizing border-box
+  box-shadow: 0 0 10px 0 rgba(0,0,0,.1)
 
 .con-copy
   left 50px
@@ -159,7 +160,7 @@ export default {
   z-index 500
   font-size .85rem
   margin: 0;
-  padding: .3rem 1rem;
+  padding: .5rem 1rem;
 
 .svg-piso
 	-webkit-transform: translateY(-50%);
