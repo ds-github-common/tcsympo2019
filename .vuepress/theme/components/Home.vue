@@ -50,15 +50,15 @@
       class="footer"
       v-if="data.footer"
       >
-      <p class="con-copy">
+      <div class="con-copy">
         {{ data.footer }}
-      </p>
-      <p>
+      </div>
+      <div class="con-copy">
         <a href="https://github.com/hs-yonekura/tcsympo2019" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="nav-awesome fab fa-github" style="font-size: 1rem; padding:0 0.5rem;"></i></a>
         <a href="https://join.slack.com/t/jamstackhq/shared_invite/enQtNjU0ODk3MDIwOTE4LWE3ZTgzYjRlNzk4YjAyYzJhM2IzZjk5YjIxZDRmMTQ1YWFiYjRlOTgyMGE0OTk3YWVlODMxNDk5Njc3N2YwZmE" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="nav-awesome fab fa-slack" style="font-size: 1rem; padding-right:0.5rem;"></i></a>
         <a href="https://twitter.com/yuukikun31" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="nav-awesome fab fa-twitter" style="font-size: 1rem; padding-right: 0.5rem;"></i></a>
         <a href="http://line.naver.jp/ti/p/pWQDiJosnD" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="nav-awesome fab fa-line" style="font-size: 1rem;"></i></a>
-      </p>
+      </div>
     </footer>
   </div>
 </template>
@@ -145,18 +145,18 @@ export default {
   position relative
   width 100%
   height auto
-  background-color #2f0942
+  background-color #fbfbff
   z-index 1
   margin-top 100px
-  display block
+  display: flex;
+  justify-content: space-between;
   box-sizing border-box
-  color #c4b1d4!important
 
 .con-copy
   left 50px
   bottom 15px
+  color #d0c2fd
   z-index 500
-  display block
   font-size .85rem
   margin: 0;
   padding: .3rem 1rem;
