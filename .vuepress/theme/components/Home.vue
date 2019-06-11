@@ -53,10 +53,10 @@
       <svg data-v-26858124="" xmlns="http://www.w3.org/2000/svg" viewBox="4209.3 4660 1514.932 404" class="svg-piso"><defs data-v-26858124=""></defs> <path data-v-26858124="" id="Path_1901" data-name="Path 1901" d="M-77.7,67.7s180-205.4,964-48,501.3-84,501.3-84l20.4,404H0Z" transform="translate(4287 4724.3)" class="cls-1-piso"></path></svg>
       <p class="con-copy">
         {{ data.footer }}
-        <a href="https://github.com/hs-yonekura/tcsympo2019" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="nav-awesome fab fa-github" style="font-size: 1.2rem; padding:0 0.3rem 0 2rem; color:#ffd902;"></i></a>
-        <a href="https://join.slack.com/t/jamstackhq/shared_invite/enQtNjU0ODk3MDIwOTE4LWE3ZTgzYjRlNzk4YjAyYzJhM2IzZjk5YjIxZDRmMTQ1YWFiYjRlOTgyMGE0OTk3YWVlODMxNDk5Njc3N2YwZmE" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="nav-awesome fab fa-slack" style="font-size: 1.2rem; padding-right:0.3rem; color: #fd58fd;"></i></a>
-        <a href="https://twitter.com/yuukikun31" target="_blank" rel="noopener noreferrer" class="nav-link external" style="font-size: 1.2rem; padding-right:.3rem; color: #7474fd;"><i class="nav-awesome fab fa-twitter"></i></a>
-        <a href="http://line.naver.jp/ti/p/pWQDiJosnD" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="nav-awesome fab fa-line" style="font-size: 1.2rem; color: #76e876;"></i></a>
+        <a href="https://github.com/hs-yonekura/tcsympo2019" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="nav-awesome fab fa-github" style="font-size: 1rem; padding:0 0.5rem;"></i></a>
+        <a href="https://join.slack.com/t/jamstackhq/shared_invite/enQtNjU0ODk3MDIwOTE4LWE3ZTgzYjRlNzk4YjAyYzJhM2IzZjk5YjIxZDRmMTQ1YWFiYjRlOTgyMGE0OTk3YWVlODMxNDk5Njc3N2YwZmE" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="nav-awesome fab fa-slack" style="font-size: 1rem; padding-right:0.5rem;"></i></a>
+        <a href="https://twitter.com/yuukikun31" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="nav-awesome fab fa-twitter" style="font-size: 1rem; padding-right: 0.5rem;"></i></a>
+        <a href="http://line.naver.jp/ti/p/pWQDiJosnD" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="nav-awesome fab fa-line" style="font-size: 1rem;"></i></a>
       </p>
     </footer>
   </div>
@@ -144,21 +144,21 @@ export default {
   position relative
   width 100%
   height auto
-  background-color #110d26
+  background-color #fbfbff
   z-index 1
-  margin-top 300px
+  margin-top 100px
   display block
   box-sizing border-box
-  color #5b5777
 
-.con-copy 
-  position absolute
+.con-copy
   left 30px
   bottom 15px
-  color white
+  color #d0c2fd
   z-index 500
   display block
   font-size .85rem
+  margin: 0;
+  padding: .3rem 1rem;
 
 .svg-piso
 	-webkit-transform: translateY(-50%);
