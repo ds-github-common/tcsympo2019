@@ -156,7 +156,7 @@ export default {
 .con-copy
   left 50px
   bottom 15px
-  color #5b3cc4
+  color #aca8b7
   z-index 500
   font-size .85rem
   margin: 0;
@@ -194,7 +194,7 @@ export default {
   overflow hidden
 
 i.footer-awesome.fab.fa-github:hover
-  color #0000ff
+  color #4078c0
 
 i.footer-awesome.fab.fa-slack:hover
   color #4A154B
