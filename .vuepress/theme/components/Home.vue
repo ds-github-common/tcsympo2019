@@ -149,12 +149,12 @@ export default {
 
 .con-copy 
   position absolute
-  right 20px
+  right 100px
   bottom 15px
   color white
   z-index 500
   display block
-  font-size 12px
+  font-size .85rem
   padding-right 30px
 
 .svg-piso
@@ -193,11 +193,6 @@ export default {
       padding 0 2.5rem
   .footer
       width 100%!important
-      transform scale(1.5)
-  .con-copy 
-      position static
-      text-align center
-      padding 10px 0
 
 @media (max-width: $MQMobileNarrow)
   .home
@@ -222,8 +217,4 @@ export default {
   .footer
       width 100%!important
       transform scale(1.5)
-  .con-copy
-      position static
-      text-align center
-      padding 10px 0
 </style>
