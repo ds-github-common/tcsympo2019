@@ -164,7 +164,7 @@ export default {
 
 .footer-awesome
   color #b7b7b7
-  font-size 1.3rem!important
+  font-size 1.3rem
   transition all .5s ease-out
   padding-right .75rem
 
