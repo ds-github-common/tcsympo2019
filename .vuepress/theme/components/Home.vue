@@ -50,7 +50,6 @@
       class="footer"
       v-if="data.footer"
       >
-      <svg data-v-26858124="" xmlns="http://www.w3.org/2000/svg" viewBox="4209.3 4660 1514.932 404" class="svg-piso"><defs data-v-26858124=""></defs> <path data-v-26858124="" id="Path_1901" data-name="Path 1901" d="M-77.7,67.7s180-205.4,964-48,501.3-84,501.3-84l20.4,404H0Z" transform="translate(4287 4724.3)" class="cls-1-piso"></path></svg>
       <p class="con-copy">
         {{ data.footer }}
         <a href="https://github.com/hs-yonekura/tcsympo2019" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="nav-awesome fab fa-github" style="font-size: 1rem; padding:0 0.5rem;"></i></a>
@@ -151,7 +150,7 @@ export default {
   box-sizing border-box
 
 .con-copy
-  left 30px
+  left 50px
   bottom 15px
   color #d0c2fd
   z-index 500
