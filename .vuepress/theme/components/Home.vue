@@ -156,14 +156,15 @@ export default {
 .con-copy
   left 50px
   bottom 15px
-  color #aca8b7
+  color #613ace
   z-index 500
   font-size .85rem
   margin: 0;
-  padding: .5rem 1rem;
+  padding: .7rem 1.5rem;
 
 .footer-awesome
-  color #9c88de
+  color #b7b7b7
+  font-size 1.4rem
   transition all .5s ease-out
 
 .svg-piso
@@ -195,15 +196,19 @@ export default {
 
 i.footer-awesome.fab.fa-github:hover
   color #4078c0
+  filter drop-shadow(0 0 1rem #4078c0)
 
 i.footer-awesome.fab.fa-slack:hover
   color #4A154B
+  filter drop-shadow(0 0 1rem #4A154B)
 
 i.footer-awesome.fab.fa-twitter:hover
   color #1DA1F2
+  filter drop-shadow(0 0 1rem #1DA1F2)
 
 i.footer-awesome.fab.fa-line:hover
   color #00c300
+  filter drop-shadow(0 0 1rem #00c300)
 
 @media (max-width: $MQMobile)
   .home
