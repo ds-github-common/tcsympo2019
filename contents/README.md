@@ -16,6 +16,15 @@
 - **バージョン管理**：Git/GitHub
 - **ホスティングサービス**：Firebase Tools >= v6
 
+| 項目 | 内容 | バージョン |
+| :---: | :---: | :---: |
+| OS | > | Windows / Mac |
+| テキストエディタ | > | Visual Studio Code |
+| プログラム | node.js | v8.65〜 |
+| パッケージ管理ツール | NPM | v6〜 |
+| ^ | Yarn | v1〜 |
+| ホスティングサービス | Firebase Tools | v6〜 |
+
 ### Visual Studio Codeのインストール
 以下のサイトからインストーラーをダウンロードしてインストールしてください。
 
