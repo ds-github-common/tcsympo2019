@@ -76,6 +76,9 @@ module.exports = {
           { text: 'Twitter', link: 'https://twitter.com/yuukikun31', awesome: 'fab fa-twitter' },
           { text: 'Line', link: 'http://line.naver.jp/ti/p/pWQDiJosnD', awesome: 'fab fa-line' }
         ]
+      },
+      {
+        text: 'FAQ', link: '/questionnaire', awesome: 'fas fa-paper-plane'
       }
     ],
     sidebar: [
