@@ -197,19 +197,15 @@ export default {
 
 i.footer-awesome.fab.fa-github:hover
   color #000
-  filter drop-shadow(0 0 1rem #000)
 
 i.footer-awesome.fab.fa-slack:hover
   color #4A154B
-  filter drop-shadow(0 0 1rem #4A154B)
 
 i.footer-awesome.fab.fa-twitter:hover
   color #1DA1F2
-  filter drop-shadow(0 0 1rem #1DA1F2)
 
 i.footer-awesome.fab.fa-line:hover
   color #00c300
-  filter drop-shadow(0 0 1rem #00c300)
 
 @media (max-width: $MQMobile)
   .home
