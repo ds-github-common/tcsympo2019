@@ -78,7 +78,6 @@ module.exports = {
       }
     ],
     sidebar: [
-      '/',
       {
         title: 'Get Started',
         children: [
