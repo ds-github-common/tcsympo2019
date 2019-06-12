@@ -165,7 +165,7 @@ export default {
 .footer-awesome
   color #b7b7b7
   font-size 1.3rem
-  transition all .5s ease-out
+  transition all .3s ease-out
   padding-right .75rem
 
 .svg-piso
@@ -196,8 +196,8 @@ export default {
   overflow hidden
 
 i.footer-awesome.fab.fa-github:hover
-  color #4078c0
-  filter drop-shadow(0 0 1rem #4078c0)
+  color #000
+  filter drop-shadow(0 0 1rem #000)
 
 i.footer-awesome.fab.fa-slack:hover
   color #4A154B
