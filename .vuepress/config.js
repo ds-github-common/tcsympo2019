@@ -35,6 +35,7 @@ module.exports = {
   description: 'MarkdownにJAMstackを添えて',
   head: [
     ['link', { href: '/fontawesome/css/all.min.css', rel: 'stylesheet' }],
+    ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/earlyaccess/mplus1p.css' }],
     ['link', { rel: 'manifest', href: '/manifest.json' }],
     ['link', { rel: 'icon', href: 'image/favicon-512x512.png' }],
     ['link', { rel: 'apple-touch-icon', href: 'image/favicon-192x192.png' }],
