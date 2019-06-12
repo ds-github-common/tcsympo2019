@@ -21,15 +21,23 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "90071a1fda40d4c9ca7768a99dfaac89"
+    "revision": "4ec654b5ea1e8f11e8b0c969eb5d1a73"
   },
   {
     "url": "about.html",
-    "revision": "802486a6fd8a3d8eeec89d2dd1f4341c"
+    "revision": "48ed3a57ca78900b5d7a4814677bbdcc"
   },
   {
-    "url": "assets/css/0.styles.9b1650be.css",
-    "revision": "06cc8d5204410ac1ea30d02a332856cd"
+    "url": "addition/chapter6.html",
+    "revision": "44837524eec05f83da66ff52333fdd0b"
+  },
+  {
+    "url": "addition/index.html",
+    "revision": "af0b86de42dcf33bf52063a34fbcc401"
+  },
+  {
+    "url": "assets/css/0.styles.52b95254.css",
+    "revision": "e3633f75d639fe1977ce52684baaaee8"
   },
   {
     "url": "assets/img/me.9f5f2bd3.png",
@@ -44,36 +52,36 @@ self.__precacheManifest = [
     "revision": "11a0ff04a62515cfcab05fb6b4848d1f"
   },
   {
-    "url": "assets/js/11.aebc3315.js",
-    "revision": "4c9f0db308b246f4c6506036ffb3f2f6"
+    "url": "assets/js/11.bce56615.js",
+    "revision": "2c8ff2536e5c88396e60868733195ad8"
   },
   {
-    "url": "assets/js/12.0e307c49.js",
-    "revision": "23d3ee4964eb8859d5fbc55b65219580"
+    "url": "assets/js/12.8fba9c5f.js",
+    "revision": "6dffa5abf913f8f1f8d10d5e43819fd6"
   },
   {
-    "url": "assets/js/13.f0f08286.js",
-    "revision": "7f00571c071a459108837837de722ba5"
+    "url": "assets/js/13.55d85a1e.js",
+    "revision": "7ee69f374a2b94a96aeeea5135689fdb"
   },
   {
-    "url": "assets/js/14.6863f73c.js",
-    "revision": "5bc4bb12057db766844d9d51f2153107"
+    "url": "assets/js/14.b9d2e710.js",
+    "revision": "40d87d7d30b2f9a5f44d5b8a86912594"
   },
   {
-    "url": "assets/js/15.5e3b826b.js",
-    "revision": "014d35d4cfe615665b79d7f9e56328e3"
+    "url": "assets/js/15.bcb8ea77.js",
+    "revision": "2d6b27f1e238f6485e3ecf4dd8441100"
   },
   {
-    "url": "assets/js/16.a33cf00b.js",
-    "revision": "d4d5ba64ef22132d245d06939584ef94"
+    "url": "assets/js/16.82a4d94f.js",
+    "revision": "24e91b5d0b321043d653d369b4cdefb0"
   },
   {
-    "url": "assets/js/17.0e42478c.js",
-    "revision": "e993401ea61c273ed4aa0a27ad7e1d8f"
+    "url": "assets/js/17.6aa5fc54.js",
+    "revision": "06f365225be61a6134519a49f4117aaa"
   },
   {
-    "url": "assets/js/18.e30de82d.js",
-    "revision": "54d5cdde77e98a6dd23a051e962026af"
+    "url": "assets/js/18.46abc9d9.js",
+    "revision": "d04b7a0ac15a667e6ad3ae1731328f14"
   },
   {
     "url": "assets/js/19.bf2f0fad.js",
@@ -84,8 +92,8 @@ self.__precacheManifest = [
     "revision": "1ffe6ddc9ff146b5ddb729d627509cee"
   },
   {
-    "url": "assets/js/4.8836f150.js",
-    "revision": "98b162f4824031f856d2c670297f0d52"
+    "url": "assets/js/4.ff951418.js",
+    "revision": "6f38ea802856ab9f5756fe1917d1ca64"
   },
   {
     "url": "assets/js/5.5cff3823.js",
@@ -104,12 +112,12 @@ self.__precacheManifest = [
     "revision": "0c527fdd2fc8d81351822d822a5be04b"
   },
   {
-    "url": "assets/js/9.2c8f1327.js",
-    "revision": "d4ad3eedc4082800b8d19aa12d7e2c7b"
+    "url": "assets/js/9.731d13d0.js",
+    "revision": "343bc5b4ad8d8d7178de7aa09e3b1a05"
   },
   {
-    "url": "assets/js/app.eb481417.js",
-    "revision": "dd20aa1be9b75c6a860f568ae5162d08"
+    "url": "assets/js/app.1b1a4d01.js",
+    "revision": "40d0b8d99aca8ff49531f63d79f66b05"
   },
   {
     "url": "assets/js/vendors~docsearch.c60f612f.js",
@@ -117,31 +125,55 @@ self.__precacheManifest = [
   },
   {
     "url": "contents/chapter1.html",
-    "revision": "fac11b8ec7def17796b56a454405305d"
+    "revision": "b822f7a9b07f2fd4e52b548cadfdb118"
   },
   {
     "url": "contents/chapter2.html",
-    "revision": "166c987c1b50163d5eb3b61a6ed2913a"
+    "revision": "4c3aa1754e0577b275ac30aee21c0835"
   },
   {
     "url": "contents/chapter3.html",
-    "revision": "50ebcbaf55be060e2f272438561dbfe3"
+    "revision": "6560e4357b1044cef052ec599788d298"
   },
   {
     "url": "contents/chapter4.html",
-    "revision": "f41abe53ab0fb9e8287a73db2dec5951"
+    "revision": "5e6a128080beaae0a8586f3d088a97d6"
   },
   {
     "url": "contents/chapter5.html",
-    "revision": "02e509c762b3f83c38a0f694127bd5b9"
-  },
-  {
-    "url": "contents/chapter6.html",
-    "revision": "2fd84652c0f103b117eade9fd769070d"
+    "revision": "a680543b84417ddfab58224000e32c63"
   },
   {
     "url": "contents/index.html",
-    "revision": "f547bf2b25f4ddb73a89263c16a750ff"
+    "revision": "304970d1e4f39e79760b119fa323232e"
+  },
+  {
+    "url": "fontawesome/css/all.min.css",
+    "revision": "dbf9d822cefe851ba6f66e1ad57e8987"
+  },
+  {
+    "url": "fontawesome/webfonts/fa-brands-400.woff",
+    "revision": "fe9d62e0d16a333a20e63c3e7595f82e"
+  },
+  {
+    "url": "fontawesome/webfonts/fa-brands-400.woff2",
+    "revision": "7559b3774a0625e8ca6c0160f8f6cfd8"
+  },
+  {
+    "url": "fontawesome/webfonts/fa-regular-400.woff",
+    "revision": "e5770f9863963fb576942e25214a226d"
+  },
+  {
+    "url": "fontawesome/webfonts/fa-regular-400.woff2",
+    "revision": "e07d9e40b26048d9abe2ef966cd6e263"
+  },
+  {
+    "url": "fontawesome/webfonts/fa-solid-900.woff",
+    "revision": "4bced7c4c0d61d4f988629bb8ae80b8b"
+  },
+  {
+    "url": "fontawesome/webfonts/fa-solid-900.woff2",
+    "revision": "b5cf8ae26748570d8fb95a47f46b69e1"
   },
   {
     "url": "image/apple-launch-1125x2436.png",
@@ -192,20 +224,20 @@ self.__precacheManifest = [
     "revision": "590b2668ed8a493223a25c5cd9f5146f"
   },
   {
+    "url": "image/flow.gif",
+    "revision": "7f3bf69c5d05a6d8671be501476968df"
+  },
+  {
     "url": "image/hs-logo.svg",
     "revision": "f1b4e2c0ffb2b8a2e7a7079b62bb2b2d"
   },
   {
     "url": "index.html",
-    "revision": "3a494de8f75d2f082343d8fe30c8ddb3"
+    "revision": "228d4f8c56242b156b13efdae8e74b1a"
   },
   {
     "url": "me.html",
-    "revision": "8cff1f355decaa929c22210b046ae1fd"
-  },
-  {
-    "url": "slide.html",
-    "revision": "35536e6dff8e94bee8c662da149cbe64"
+    "revision": "c5ef735cc0af29f352bec59b2f99cd2f"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();

@@ -4,15 +4,15 @@
 ## リモートリポジトリを作成する
 1. [GitHub](https://github.com/)にアクセスしログインする。
 
-1. **Repositries**の**New**ボタンをクリックする。
+2. **Repositries**の**New**ボタンをクリックする。
 
 ![Image from Gyazo](https://i.gyazo.com/2b0e3f8e1d7209b1de5120d4db891a77.png)
 
-1. 任意の**Repository name**を入力して、**Create repository**をクリックする。
+3. 任意の**Repository name**を入力して、**Create repository**をクリックする。
 
 ![Image from Gyazo](https://i.gyazo.com/031cf52a81ee09874a5ea7af184c0ab1.png)
 
-1. コピーアイコンをクリックして、SSHアドレスをクリップボードにコピーする。
+4. コピーアイコンをクリックして、SSHアドレスをクリップボードにコピーする。
 
 ![Image from Gyazo](https://i.gyazo.com/4e7dbb19ff7fd5e05ce06e41b11cd4e4.png)
 
