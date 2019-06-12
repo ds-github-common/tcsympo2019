@@ -9,21 +9,14 @@
 
 ## 環境準備
 下記の環境を前提としてWebマニュアル作成の手順を説明します。
-- **OS**：Windows/MacOS
-- **テキストエディタ**：Visual Studio Code
-- **プログラム**：node.js >= v10
-- **パッケージ管理ツール**：npm >= v6 / yarn >= v1
-- **バージョン管理**：Git/GitHub
-- **ホスティングサービス**：Firebase Tools >= v6
 
 | 項目 | 内容 | バージョン |
 | :---: | :---: | :---: |
-| OS | > | Windows / Mac |
-| テキストエディタ | > | Visual Studio Code |
-| プログラム | node.js | v8.65〜 |
-| パッケージ管理ツール | NPM | v6〜 |
-| ^ | Yarn | v1〜 |
-| ホスティングサービス | Firebase Tools | v6〜 |
+| OS | Windows / Mac | 10 / 10.14 |
+| テキストエディタ | Visual Studio Code | 1.34.0 |
+| プログラム | node.js | 10.15.3 |
+| パッケージ管理ツール | NPM / Yarn | 6.9.0 / 1.15.2 |
+| ホスティングサービス | Firebase Tools | 6.9.2 |
 
 ### Visual Studio Codeのインストール
 以下のサイトからインストーラーをダウンロードしてインストールしてください。
@@ -92,7 +85,7 @@ $ yarn -v
 # firebase-toolsをインストールする。
 $ npm install -g firebase-tools
 ```
-3. Firebase Toolが正しくインストールされたことを確認する。
+3. Firebase Toolsが正しくインストールされたことを確認する。
 ```bash
 # firebase-toolsのバージョンを確認する。
 $ firebase --version
