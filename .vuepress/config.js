@@ -78,7 +78,7 @@ module.exports = {
         ]
       },
       {
-        text: 'FAQ', link: '/questionnaire', awesome: 'fas fa-paper-plane'
+        text: 'FAQ', link: '/addition/questionnaire', awesome: 'fas fa-paper-plane'
       }
     ],
     sidebar: [
