@@ -78,7 +78,7 @@ module.exports = {
         ]
       },
       {
-        text: '', link: 'https://surveys.hotjar.com/s?siteId=1346481&surveyId=135747', awesome: 'fas fa-paper-plane'
+        text: '', link: '/addition/questionnaire', awesome: 'fas fa-paper-plane'
       }
     ],
     sidebar: [
