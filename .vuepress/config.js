@@ -36,7 +36,7 @@ module.exports = {
   head: [
     ['link', { href: '/fontawesome/css/all.min.css', rel: 'stylesheet' }],
     ['link', { href: '/notosans/NotoSansCJKjp-Thin.woff2', rel: 'preload', as: 'font', crossorigin: 'anonymous' }],
-    ['link', { href: '/notosans/NotoSansCJKjp-Light.woff2', rel: 'preload', as: 'font', crossorigin: 'anonymous' }],
+    ['link', { href: '/notosans/NotoSansCJKjp-Regular.woff2', rel: 'preload', as: 'font', crossorigin: 'anonymous' }],
     ['link', { href: '/notosans/NotoSansCJKjp-Bold.woff2', rel: 'preload', as: 'font', crossorigin: 'anonymous' }],
     ['link', { rel: 'manifest', href: '/manifest.json' }],
     ['link', { rel: 'icon', href: 'image/favicon-512x512.png' }],
