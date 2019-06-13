@@ -10,33 +10,46 @@ $nprogressColor = #5b3cc4
   font-family 'Noto Sans CJK JP Subset'
   font-style normal
   font-weight 300
-  src: local('Noto Sans CJK JP'),
-       local('NotoSansCJKjp-Light'),
-       local('NotoSansJP-Light'),
-       url('/notosans/NotoSansCJKjp-Light.woff2') format('woff2'),
-       url('/notosans/NotoSansCJKjp-Light.woff') format('woff'),
-       url('/notosans/NotoSansCJKjp-Light.ttf') format('truetype')
+  src local('Noto Sans CJK JP'),local('NotoSansCJKjp-Light'),local('NotoSansJP-Light'),url('/notosans/NotoSansCJKjp-Light.woff2') format('woff2'),url('/notosans/NotoSansCJKjp-Light.woff') format('woff'),url('/notosans/NotoSansCJKjp-Light.ttf') format('truetype')
 
 @font-face
   font-family 'Noto Sans CJK JP Subset'
   font-style normal
   font-weight 400
-  src: local('Noto Sans CJK JP'),
-       local('NotoSansCJKjp-Regular'),
-       local('NotoSansJP-Regular'),
-       url('/notosans/NotoSansCJKjp-Regular.woff2') format('woff2'),
-       url('/notosans/NotoSansCJKjp-Regular.woff') format('woff'),
-       url('/notosans/NotoSansCJKjp-Regular.ttf') format('truetype')
+  src local('Noto Sans CJK JP'),local('NotoSansCJKjp-Regular'),local('NotoSansJP-Regular'),url('/notosans/NotoSansCJKjp-Regular.woff2') format('woff2'),url('/notosans/NotoSansCJKjp-Regular.woff') format('woff'),url('/notosans/NotoSansCJKjp-Regular.ttf') format('truetype')
 
 @font-face
   font-family 'Noto Sans CJK JP Subset'
   font-style normal
   font-weight 700
-  src local('NotoSansCJKjp-Bold'),
-       local('NotoSansJP-Bold'),
-       url('/notosans/NotoSansCJKjp-Bold.woff2') format('woff2'),
-       url('/notosans/NotoSansCJKjp-Bold.woff') format('woff'),
-       url('/notosans/NotoSansCJKjp-Bold.ttf') format('truetype')
+  src local('NotoSansCJKjp-Bold'),local('NotoSansJP-Bold'),url('/notosans/NotoSansCJKjp-Bold.woff2') format('woff2'),url('/notosans/NotoSansCJKjp-Bold.woff') format('woff'),url('/notosans/NotoSansCJKjp-Bold.ttf') format('truetype')
+
+@font-face
+  font-family 'FontAwesome-swap'
+  font-display swap
+  src local('FontAwesome'), url('/fontawesome/webfonts/fa-brands-400.woff2') format('woff2'),
+  
+@font-face
+  font-family 'Font Awesome 5 Regular'
+  font-style normal
+  font-weight 400
+  src url("/fontawesome/webfonts/fa-regular-400.woff2") format("woff2"), url("/fontawesome/webfonts/fa-regular-400.woff") format("woff")
+
+.far
+  font-family 'Font Awesome 5 Regular'
+  font-weight 400
+
+@font-face
+  font-family 'Font Awesome 5 Free'
+  font-style normal
+  font-weight 900
+  src url("/fontawesome/webfonts/fa-solid-900.woff2") format("woff2"), url("/fontawesome/webfonts/fa-solid-900.woff") format("woff")
+
+.fa,
+.fas 
+  font-family 'Font Awesome 5 Free'
+  font-weight 900 
+
 
 header-color = #5b5777
 header-bgcolor = rgba(255,255,255,0.7) 
@@ -63,7 +76,7 @@ body
   color header-color
 
 span.site-name.can-hide
-  display: none!important
+  display none!important
 
 .nav-links a.router-link-active
   color #5b3cc4

@@ -34,7 +34,10 @@ module.exports = {
   title: 'Webマニュアル30分マニュアル',
   description: 'MarkdownにJAMstackを添えて',
   head: [
-    ['link', { href: '/fontawesome/css/all.min.css', rel: 'stylesheet' }],
+    ['link', { href: '/fontawesome/css/all.min.css', rel: 'stylesheet', rel: 'preload', as: 'style', crossorigin: 'anonymous' }],
+    ['link', { href: '/fontawesome/webfonts/fa-brands-400.woff2', rel: 'stylesheet', rel: 'preload', as: 'font', crossorigin: 'anonymous' }],
+    ['link', { href: '/fontawesome/webfonts/fa-regular-400.woff2', rel: 'stylesheet', rel: 'preload', as: 'font', crossorigin: 'anonymous' }],
+    ['link', { href: '/fontawesome/webfonts/fa-solid-400.woff2', rel: 'stylesheet', rel: 'preload', as: 'font', crossorigin: 'anonymous' }],
     ['link', { href: '/notosans/NotoSansCJKjp-Light.woff2', rel: 'preload', as: 'font', crossorigin: 'anonymous' }],
     ['link', { href: '/notosans/NotoSansCJKjp-Regular.woff2', rel: 'preload', as: 'font', crossorigin: 'anonymous' }],
     ['link', { href: '/notosans/NotoSansCJKjp-Bold.woff2', rel: 'preload', as: 'font', crossorigin: 'anonymous' }],
