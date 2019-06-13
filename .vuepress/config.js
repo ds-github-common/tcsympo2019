@@ -34,7 +34,7 @@ module.exports = {
   title: 'Webマニュアル30分マニュアル',
   description: 'MarkdownにJAMstackを添えて',
   head: [
-    ['link', { href: '/fontawesome/css/all.min.css', rel: 'stylesheet', rel: 'preload', as: 'style', crossorigin: 'anonymous' }],
+    ['link', { href: '/fontawesome/css/all.min.css', rel: 'stylesheet' }],
     ['link', { href: '/fontawesome/webfonts/fa-brands-400.woff2', rel: 'stylesheet', rel: 'preload prefetch', as: 'font/woff2', crossorigin: 'anonymous' }],
     ['link', { href: '/fontawesome/webfonts/fa-regular-400.woff2', rel: 'stylesheet', rel: 'preload prefetch', as: 'font/woff2', crossorigin: 'anonymous' }],
     ['link', { href: '/fontawesome/webfonts/fa-solid-400.woff2', rel: 'stylesheet', rel: 'preload prefetch', as: 'font/woff2', crossorigin: 'anonymous' }],
