@@ -35,9 +35,9 @@ module.exports = {
   description: 'MarkdownにJAMstackを添えて',
   head: [
     ['link', { href: '/fontawesome/css/all.min.css', rel: 'stylesheet' }],
-    ['link', { href: '/fontawesome/webfonts/fa-brands-400.woff2', rel: 'preload', as: 'font/woff2', crossorigin: 'anonymous' }],
-    ['link', { href: '/fontawesome/webfonts/fa-regular-400.woff2', rel: 'preload', as: 'font/woff2', crossorigin: 'anonymous' }],
-    ['link', { href: '/fontawesome/webfonts/fa-solid-400.woff2', rel: 'preload', as: 'font/woff2', crossorigin: 'anonymous' }],
+    ['link', { href: '/fontawesome/webfonts/fa-brands-400.woff2', rel: 'preload', as: 'font', type: 'font/woff2', crossorigin: 'anonymous' }],
+    ['link', { href: '/fontawesome/webfonts/fa-regular-400.woff2', rel: 'preload', as: 'font', type: 'font/woff2', crossorigin: 'anonymous' }],
+    ['link', { href: '/fontawesome/webfonts/fa-solid-400.woff2', rel: 'preload', as: 'font', type: 'font/woff2', crossorigin: 'anonymous' }],
     ['link', { rel: 'manifest', href: '/manifest.json' }],
     ['link', { rel: 'icon', href: 'image/favicon-512x512.png' }],
     ['link', { rel: 'apple-touch-icon', href: 'image/favicon-192x192.png' }],
