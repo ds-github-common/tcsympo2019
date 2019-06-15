@@ -32,6 +32,3 @@ $ echo "Hello Vuepress" > README.md
 # ローカルサーバー起動
 $ yarn vuepress dev
 ```
-
-### JAMstack構成イメージ
-![](/image/flow.gif)
