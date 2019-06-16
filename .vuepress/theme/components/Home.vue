@@ -29,19 +29,26 @@
         class="features"
         v-if="data.features && data.features.length"
         >
-        <div
-          class="feature"
-          v-for="(feature, index) in data.features"
-          :key="index"
-          >
-          <h2>
-            <i v-if="feature.awesome" :class="feature.awesome" style="padding-right: 0.3rem; color: #5b3cc4; font-size:2rem;">
-            </i>
-          {{ feature.title }}
-          </h2>
-        <p>{{ feature.details }}</p>
-        </div>
+				<div class="con-text-feature>
+					<div
+						class="feature"
+						v-for="(feature, index) in data.features"
+						:key="index"
+						>
+						<h2>
+							<i v-if="feature.awesome" :class="feature.awesome" style="padding-right: 0.3rem; color: #5b3cc4; font-size:2rem;">
+							</i>
+						{{ feature.title }}
+						</h2>
+					<p>{{ feature.details }}</p>
+					</div>
+				</div>
+				<div class="con-img-feature>
+					<img :src="$withBase(data.heroImage)"></img>
+				</div>
       </div>
+
+      <lottie class="login-lottie" :options="welcomeLottie" :height="300" :width="300" :animCreated="handleAnimation"/>
 
       <Content class="custom"/>
 
@@ -65,20 +72,29 @@
 
 <script>
 import NavLink from '@theme/components/NavLink.vue'
+import Lottie from '@theme/components/Lottie.vue'
+import * as welcome from '@theme/assets/welcome.json'
 
 export default {
-  components: { NavLink },
+  components: { NavLink, Lottie },
 
   computed: {
     data () {
       return this.$page.frontmatter
     },
-
+    welcomeLottie() {
+      return { animationData: welcome }
+    },
     actionLink () {
       return {
         link: this.data.actionLink,
         text: this.data.actionText
       }
+    }
+  },
+  methods: {
+    handleAnimation ( anim ) {
+      this.anim = anim
     }
   }
 }
@@ -129,8 +145,28 @@ export default {
     justify-content space-between
   .feature
     flex-grow 1
-    flex-basis 30%
-    max-width 30%
+    flex-basis 100%
+    max-width 100%
+    display flex
+    box-align center
+    align-items center
+    flex-align center
+    -webkit-box-pack center
+		ms-flex-pack center
+    justify-content center
+    margin-bottom 2rem
+	.feature:nth-child(odd) .con-text-feature
+		-webkit-box-ordinal-group 4
+    -ms-flex-order 3
+    order 3
+	.feature .con-text-feature
+		max-width 500px
+    padding 30px
+	.con-img-feature
+		width 100%
+    max-width 600px
+    padding 2rem
+    
     h2
       font-size 1.4rem
       font-weight 500
@@ -140,7 +176,13 @@ export default {
       text-align center
     p
       color lighten($textColor, 25%)
-
+	.login-lottie 
+    position absolute
+    top 32px
+    right 0
+    bottom 0
+    left 0
+    margin 0 auto
 .footer
   position relative
   width 100%
