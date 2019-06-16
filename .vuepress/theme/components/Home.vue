@@ -43,7 +43,7 @@
 					<p>{{ feature.details }}</p>
 					</div>
 				</div>
-				<div class="con-img-feature>
+				<div class="con-img-feature">
 					<img :src="$withBase(data.heroImage)"></img>
 				</div>
       </div>
