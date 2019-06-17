@@ -157,7 +157,6 @@ export default {
 	.con-img-feature
     width 100%
     max-width 600px
-    padding 2rem
     
     h2
       font-size 1.4rem
