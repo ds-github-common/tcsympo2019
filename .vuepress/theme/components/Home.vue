@@ -151,7 +151,6 @@ export default {
     max-width 500px!important
     padding 30px!important
 	.feature:nth-child(odd) 
-    background #f9faff
     .con-text-feature
       order 3
 	.con-img-feature
