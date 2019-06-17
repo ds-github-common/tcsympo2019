@@ -21,17 +21,3 @@ features:
     details: もうDTPやHTMLコーディングに特別な知識は必要ありません。簡易な記法でライティングするだけで、リッチなHTMLと自動で組版されたPDFの両方が出力されます。またCIツールやPWAなどの技術を使うことで、自動デプロイやモバイルアプリまでできてしまうのです。
 ---
 
-### VuePressスタートアップ
-```bash
-# yarnの初期化
-$ yarn init
-
-# VuePressのインストール
-$ yarn add -D vuepress@next
-
-# README.mdファイルの作成
-$ echo "Hello Vuepress" > README.md
-
-# ローカルサーバー起動
-$ yarn vuepress dev
-```

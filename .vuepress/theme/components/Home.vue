@@ -147,6 +147,7 @@ export default {
     flex-align center
     -webkit-box-pack center
     justify-content center
+    margin-top -5rem
 	.con-text-feature
     max-width 50rem!important
     padding 30px!important
@@ -243,6 +244,7 @@ i.footer-awesome.fab.fa-line:hover
       display block
     .con-img-feature
       padding 0
+      margine-top -5rem
   .footer
       width 100%!important
   .footer-awesome
@@ -273,6 +275,8 @@ i.footer-awesome.fab.fa-line:hover
       padding 0
       margin-bottom 2.5rem
       display block
+      .con-img-feature
+        margine-top -5rem
   .footer
       width 100%!important
   .footer-awesome
