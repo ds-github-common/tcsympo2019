@@ -11,7 +11,7 @@
           <h1 v-if="data.heroText !== null" id="main-title">{{ data.heroText || $title || 'Hello' }}</h1>
 
           <p class="description">
-          {{ data.tagline || $description || 'Welcome to your VuePress site' }}
+            {{ data.tagline || $description || 'Welcome to your VuePress site' }}
           </p>
 
           <p
@@ -25,33 +25,26 @@
           </p>
       </header>
 
-      <div
-        class="features"
-        v-if="data.features && data.features.length"
+      <div class="features">
+        <div class="feature"
+             :key="index"
+             v-for="(feature, index) in data.features"
+             v-if="data.features && data.features.length"
         >
-				<div class="con-text-feature>
-					<div
-						class="feature"
-						v-for="(feature, index) in data.features"
-						:key="index"
-						>
-						<h2>
-							<i v-if="feature.awesome" :class="feature.awesome" style="padding-right: 0.3rem; color: #5b3cc4; font-size:2rem;">
-							</i>
-						{{ feature.title }}
-						</h2>
-					<p>{{ feature.details }}</p>
-					</div>
-				</div>
-				<div class="con-img-feature">
-					<img :src="$withBase(data.heroImage)"></img>
-				</div>
+          <div class="con-text-feature">
+            <h2>
+              <i v-if="feature.awesome" :class="feature.awesome" style="padding-right: 0.3rem; color: #5b3cc4; font-size:2rem;">
+              </i>
+        {{ feature.title }}
+            </h2>
+            <p>{{ feature.details }}</p>
+          </div>
+          <div class="con-img-feature">
+            <lottie class="login-lottie" :options="lottieOptions[index]" :animCreated="handleAnimation"/>
+          </div>
+        </div>
       </div>
-
-      <lottie class="login-lottie" :options="welcomeLottie" :height="300" :width="300" :animCreated="handleAnimation"/>
-
       <Content class="custom"/>
-
     </main>
     <footer
       class="footer"
@@ -73,17 +66,24 @@
 <script>
 import NavLink from '@theme/components/NavLink.vue'
 import Lottie from '@theme/components/Lottie.vue'
-import * as welcome from '@theme/assets/welcome.json'
+import * as speed from '@theme/assets/speed.json'
+import * as money from '@theme/assets/money.json'
+import * as simple from '@theme/assets/simple.json'
 
 export default {
   components: { NavLink, Lottie },
-
+  data() {
+    return {
+      lottieOptions: [
+        { animationData: speed },
+        { animationData: money },
+        { animationData: simple }
+      ]
+    }
+  },
   computed: {
     data () {
       return this.$page.frontmatter
-    },
-    welcomeLottie() {
-      return { animationData: welcome }
     },
     actionLink () {
       return {
@@ -135,35 +135,28 @@ export default {
       &:hover
         background-color lighten($accentColor, 10%)
   .features
-    border-top 1px solid $borderColor
-    padding 1.2rem 0
     margin-top 2.5rem
-    display flex
-    flex-wrap wrap
-    align-items flex-start
-    align-content stretch
-    justify-content space-between
   .feature
     flex-grow 1
     flex-basis 100%
-    max-width 100%
     display flex
+    max-width 100%
+    padding 1.2rem!important
     box-align center
     align-items center
     flex-align center
     -webkit-box-pack center
-		ms-flex-pack center
     justify-content center
     margin-bottom 2rem
-	.feature:nth-child(odd) .con-text-feature
-		-webkit-box-ordinal-group 4
-    -ms-flex-order 3
-    order 3
-	.feature .con-text-feature
-		max-width 500px
-    padding 30px
+	.con-text-feature
+    max-width 700px!important
+    padding 30px!important
+	.feature:nth-child(odd) 
+    background #f9faff
+    .con-text-feature
+      order 3
 	.con-img-feature
-		width 100%
+    width 100%
     max-width 600px
     padding 2rem
     
@@ -176,13 +169,6 @@ export default {
       text-align center
     p
       color lighten($textColor, 25%)
-	.login-lottie 
-    position absolute
-    top 32px
-    right 0
-    bottom 0
-    left 0
-    margin 0 auto
 .footer
   position relative
   width 100%
@@ -255,7 +241,11 @@ i.footer-awesome.fab.fa-line:hover
       flex-direction column
     .feature
       max-width 100%
-      padding 0 2.5rem
+      padding 0
+      margin-bottom 2.5rem
+      display block
+    .con-img-feature
+      padding 0
   .footer
       width 100%!important
   .footer-awesome
@@ -282,6 +272,10 @@ i.footer-awesome.fab.fa-line:hover
     .feature
       h2
         font-size 1.25rem
+      max-width 100%
+      padding 0
+      margin-bottom 2.5rem
+      display block
   .footer
       width 100%!important
   .footer-awesome
