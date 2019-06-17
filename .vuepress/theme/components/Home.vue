@@ -148,7 +148,7 @@ export default {
     -webkit-box-pack center
     justify-content center
 	.con-text-feature
-    max-width 700px!important
+    max-width 500px!important
     padding 30px!important
 	.feature:nth-child(odd) 
     background #f9faff
