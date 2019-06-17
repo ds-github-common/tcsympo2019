@@ -3,7 +3,7 @@ home: true
 heroText: Webマニュアル30分クッキング
 tagline: MarkdownにJAMstackを添えて
 heroImage: 'https://www.jtca.org/image/jtcalogo.gif'
-actionText: Get Started →
+actionText: Get Started ▶︎
 actionLink: /contents/
 footer: © Human Science co., ltd.
 features:
