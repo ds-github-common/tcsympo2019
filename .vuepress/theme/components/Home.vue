@@ -147,7 +147,6 @@ export default {
     flex-align center
     -webkit-box-pack center
     justify-content center
-    margin-bottom 2rem
 	.con-text-feature
     max-width 700px!important
     padding 30px!important
