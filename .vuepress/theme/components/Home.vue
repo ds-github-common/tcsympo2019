@@ -173,7 +173,6 @@ export default {
   height auto
   background-color #fff
   z-index 1
-  margin-top 100px
   display: flex;
   justify-content: space-between;
   box-sizing border-box
