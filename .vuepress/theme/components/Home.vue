@@ -135,7 +135,7 @@ export default {
       &:hover
         background-color lighten($accentColor, 10%)
   .features
-    margin-top 2.5rem
+    margin 6rem 0
   .feature
     flex-grow 1
     flex-basis 100%
