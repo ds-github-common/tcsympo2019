@@ -23,14 +23,14 @@
 
 [Visual Studio Code 公式サイト](https://azure.microsoft.com/ja-jp/products/visual-studio-code/)
 
-![](image/001.png)
+![](./image/001.png)
 
 ### node.js/npmのインストール
 1. 以下のサイトからインストーラーをダウンロードしてインストールする。
 
 [node.js 公式サイト](https://nodejs.org/ja/)
 
-![](image/002.png)
+![](./image/002.png)
 
 2. コマンドラインツール（Windowsであればコマンドプロンプト、Macであればターミナル）を開く。
 3. node.jsおよびnpmがインストールされたことを確認する。
