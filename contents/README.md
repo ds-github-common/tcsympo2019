@@ -23,14 +23,14 @@
 
 [Visual Studio Code 公式サイト](https://azure.microsoft.com/ja-jp/products/visual-studio-code/)
 
-![](./image/001.png)
+![Image from Gyazo](https://i.gyazo.com/6137f0858687850608986ece4dd95ffc.png)
 
 ### node.js/npmのインストール
 1. 以下のサイトからインストーラーをダウンロードしてインストールする。
 
 [node.js 公式サイト](https://nodejs.org/ja/)
 
-![](./image/002.png)
+![Image from Gyazo](https://i.gyazo.com/363a88bb6f155db780ef026c6a34ff71.png)
 
 2. コマンドラインツール（Windowsであればコマンドプロンプト、Macであればターミナル）を開く。
 3. node.jsおよびnpmがインストールされたことを確認する。
