@@ -135,7 +135,7 @@ export default {
       &:hover
         background-color lighten($accentColor, 10%)
   .features
-    margin 6rem 0
+    margin-top 8rem
   .feature
     flex-grow 1
     flex-basis 100%
@@ -150,13 +150,13 @@ export default {
     margin-top -5rem
 	.con-text-feature
     max-width 50rem!important
-    padding 30px!important
+    padding 1rem!important
 	.feature:nth-child(odd) 
     .con-text-feature
       order 3
 	.con-img-feature
-    width 100%
-    max-width 600px
+    width 200%
+    max-width 30rem
     
     h2
       font-size 1.4rem
@@ -243,7 +243,7 @@ i.footer-awesome.fab.fa-line:hover
       display block
     .con-img-feature
       padding 0
-      margine-top -5rem
+      margin-top -5rem
   .footer
       width 100%!important
   .footer-awesome
@@ -275,7 +275,7 @@ i.footer-awesome.fab.fa-line:hover
       margin-bottom 2.5rem
       display block
       .con-img-feature
-        margine-top -5rem
+        margin-top -5rem
   .footer
       width 100%!important
   .footer-awesome
