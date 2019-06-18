@@ -279,6 +279,7 @@ i.footer-awesome.fab.fa-line:hover
         padding 0
         max-width 25rem
         margin-top -4rem
+
   .footer
       width 100%!important
   .footer-awesome
