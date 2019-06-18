@@ -3,7 +3,7 @@
 本サイトはTCシンポジウム2019で株式会社ヒューマンサイエンスが発表した「Webマニュアル30分クッキング」で作成したWebマニュアルのサンプルです。
 本サイトで利用されているシステム構成は下記の通りです。
 
-![Image from Gyazo](https://i.gyazo.com/2bcf75a8aefd32481e616a1d37ec92a9.png)
+![](001.png)
 
 本サイトを再現するために必要な環境と手順をここに記載します。ご興味があれば、ここで紹介するシステム構成を使ってご自身独自のサイトを作成して公開してみてください。
 
@@ -23,7 +23,7 @@
 
 [Visual Studio Code 公式サイト](https://azure.microsoft.com/ja-jp/products/visual-studio-code/)
 
-![Image from Gyazo](https://i.gyazo.com/6137f0858687850608986ece4dd95ffc.png)
+![](002.png)
 
 ### node.js/npmのインストール
 1. 以下のサイトからインストーラーをダウンロードしてインストールする。
