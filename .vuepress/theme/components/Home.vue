@@ -243,7 +243,7 @@ i.footer-awesome.fab.fa-line:hover
       display block
     .con-img-feature
       padding 0
-      margin-top -5rem
+      margin-top -4rem
   .footer
       width 100%!important
   .footer-awesome
@@ -275,7 +275,7 @@ i.footer-awesome.fab.fa-line:hover
       margin-bottom 2.5rem
       display block
       .con-img-feature
-        margin-top -5rem
+        margin-top -4rem
   .footer
       width 100%!important
   .footer-awesome
