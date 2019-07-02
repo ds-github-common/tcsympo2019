@@ -43,7 +43,6 @@ module.exports = {
 **config.js** に下記を追加する。
 
 ```javascript
-/*
 module.exports = {
   themeConfig: {
     // logoのイメージファイルを参照させます。
@@ -54,9 +53,8 @@ module.exports = {
       { text: 'Home', link: '/' },
       { text: 'Get Started', link: '/contents/' }
     ]
-    /*
   }
-}*/
+}
 ```
 
 ![Image from Gyazo](https://i.gyazo.com/d9e04fd6d557b13223efad083bf1cf7b.png)
@@ -70,7 +68,6 @@ module.exports = {
 **config.js** に下記を追加する。
 
 ```javascript
-/*
 module.exports = {
   themeConfig: {
     // logoのイメージファイルを参照させます。
@@ -92,9 +89,8 @@ module.exports = {
 
     // h2までをサイドメニューに表示させます。
     sidebarDepth: 2
-    /*
   }
-}*/
+}
 ```
 
 ::: tip <i class="fas fa-comments"></i> ヒント

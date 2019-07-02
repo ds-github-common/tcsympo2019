@@ -73,13 +73,6 @@ $ echo '# Hello VuePress' > README.md
 ```json
 // コマンド省略のために下記を追加する。
 // 「vuepress dev」は、「yarn vuepress dev」と同意になる。
-"scripts": {
-  "dev": "vuepress dev",
-  "build": "vuepress build"
-}
-
-// 上記を追加した結果。"scripts"の上の行末尾に「,」が追加されていることに注意する。
-/*
 {
   "name": "jamstack",
   "version": "1.0.0",
@@ -93,7 +86,6 @@ $ echo '# Hello VuePress' > README.md
     "build": "vuepress build"
   }
 }
-*/
 ```
 
 ::: tip <i class="fas fa-comments"></i> ヒント
@@ -104,7 +96,7 @@ $ echo '# Hello VuePress' > README.md
 3. ローカルサーバーを立ち上げる。
 ```bash
 # ローカルサーバーを立ち上げる。
-$ vuepress dev
+$ yarn dev
 
 DONE  [09:54:30] Build 6dd12b finished in 5298 ms!
 > VuePress dev server listening at http://localhost:8080/
