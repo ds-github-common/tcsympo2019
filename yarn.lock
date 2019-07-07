@@ -7168,9 +7168,9 @@ range-parser@^1.2.1, range-parser@~1.2.1:
   resolved "https://registry.yarnpkg.com/range-parser/-/range-parser-1.2.1.tgz#3cf37023d199e1c24d1a55b84800c2f3e6468031"
   integrity sha512-Hrgsx+orqoygnmhFbKaHE6c296J+HTAQXoxEF6gNupROmmGJRoyzfG3ccAveqCBrwr/2yxQ5BVd/GTl5agOwSg==
 
-"raphael@git+https://github.com/nhn/raphael.git#2.2.0-c":
+"raphael@https://github.com/nhn/raphael.git#2.2.0-c":
   version "2.2.0-c"
-  resolved "git+https://github.com/nhn/raphael.git#78a6ed3ec269f33b6457b0ec66f8c3d1f2ed70e0"
+  resolved "https://github.com/nhn/raphael.git#78a6ed3ec269f33b6457b0ec66f8c3d1f2ed70e0"
   dependencies:
     eve "git://github.com/adobe-webplatform/eve.git#eef80ed"
 
@@ -8959,9 +8959,9 @@ vuepress-plugin-export@^0.2.0:
     easy-pdf-merge "^0.2.0"
     puppeteer "^1.11.0"
 
-"vuepress-plugin-hotjar@git+ssh://git@github.com:simonwjackson/vuepress-plugin-hotjar.git":
+vuepress-plugin-hotjar@simonwjackson/vuepress-plugin-hotjar:
   version "1.0.0"
-  resolved "git+ssh://git@github.com:simonwjackson/vuepress-plugin-hotjar.git#d45215f03b9cca61adf3a3e65dd8ba371f3c0699"
+  resolved "https://codeload.github.com/simonwjackson/vuepress-plugin-hotjar/tar.gz/d45215f03b9cca61adf3a3e65dd8ba371f3c0699"
 
 vuepress-plugin-smooth-scroll@^0.0.3:
   version "0.0.3"
