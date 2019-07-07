@@ -77,7 +77,7 @@ module.exports = {
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Get Started', link: '/contents/' }
-    ]*/,
+    ],
 
     // サイドバーを追加します。
     sidebar: [
