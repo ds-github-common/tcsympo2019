@@ -151,11 +151,11 @@ $ git push origin master
 
 ::: tip <i class="fas fa-comments"></i> ヒント
 masterリポジトリにプッシュされるたびに、自動でビルド・デプロイ処理が実行されます。
-ジョブのステータスは`QUED`、`RUNNING`、`SUCCESS`、`FAILED`の４種類で表示されます。各ステータスの内容は下記のとおりです。
-`QUED`：GitHubへのプッシュをトリガーにして、CircliCIにジョブの実行を促しています。
-`RUNNING`：ビルド・デプロイを実行しています。
-`SUCCESS`：ビルド・デプロイに成功しました。
-`FAILED`：ビルド・デプロイに失敗しました。
+ジョブのステータスは`QUED`、`RUNNING`、`SUCCESS`、`FAILED`の４種類で表示されます。各ステータスの内容は下記のとおりです。  
+`QUED`：GitHubへのプッシュをトリガーにして、CircliCIにジョブの実行を促しています。  
+`RUNNING`：ビルド・デプロイを実行しています。  
+`SUCCESS`：ビルド・デプロイに成功しました。  
+`FAILED`：ビルド・デプロイに失敗しました。  
 :::
 
 7. ジョブステータスが`SUCCESS`になったら、デプロイに成功しています。
