@@ -21,7 +21,7 @@ const RecordIdsPlugin = require("./RecordIdsPlugin");
 
 const APIPlugin = require("./APIPlugin");
 const ConstPlugin = require("./ConstPlugin");
-const NodeStuffPlugin = require("./NodeStuffPlugin");
+const CommonJsStuffPlugin = require("./CommonJsStuffPlugin");
 const CompatibilityPlugin = require("./CompatibilityPlugin");
 
 const TemplatedPathPlugin = require("./TemplatedPathPlugin");
@@ -156,11 +156,19 @@ class WebpackOptionsApply extends OptionsApply {
 					new LoaderTargetPlugin(options.target).apply(compiler);
 					break;
 				case "electron-renderer":
-					JsonpTemplatePlugin = require("./web/JsonpTemplatePlugin");
+				case "electron-preload":
 					FetchCompileWasmTemplatePlugin = require("./web/FetchCompileWasmTemplatePlugin");
 					NodeTargetPlugin = require("./node/NodeTargetPlugin");
 					ExternalsPlugin = require("./ExternalsPlugin");
-					new JsonpTemplatePlugin().apply(compiler);
+					if (options.target === "electron-renderer") {
+						JsonpTemplatePlugin = require("./web/JsonpTemplatePlugin");
+						new JsonpTemplatePlugin().apply(compiler);
+					} else if (options.target === "electron-preload") {
+						NodeTemplatePlugin = require("./node/NodeTemplatePlugin");
+						new NodeTemplatePlugin({
+							asyncChunkLoading: true
+						}).apply(compiler);
+					}
 					new FetchCompileWasmTemplatePlugin({
 						mangleImports: options.optimization.mangleWasmImports
 					}).apply(compiler);
@@ -290,7 +298,11 @@ class WebpackOptionsApply extends OptionsApply {
 		}
 		new CommonJsPlugin(options.module).apply(compiler);
 		new LoaderPlugin().apply(compiler);
-		new NodeStuffPlugin(options.node).apply(compiler);
+		if (options.node !== false) {
+			const NodeStuffPlugin = require("./NodeStuffPlugin");
+			new NodeStuffPlugin(options.node).apply(compiler);
+		}
+		new CommonJsStuffPlugin().apply(compiler);
 		new APIPlugin().apply(compiler);
 		new ConstPlugin().apply(compiler);
 		new UseStrictPlugin().apply(compiler);

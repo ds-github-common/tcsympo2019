@@ -9,6 +9,7 @@
     "@vuepress/plugin-medium-zoom": "^1.0.0-alpha.48",
     "@vuepress/plugin-nprogress": "^1.0.0-alpha.48",
     "@vuepress/plugin-pwa": "^1.0.0-alpha.48",
+    "firebase": "^6.2.4",
     "firebase-tools": "^6.10.0",
     "markdown-it-fontawesome": "^0.3.0",
     "tailwindcss": "^0.7.4",
@@ -16,6 +17,7 @@
     "vue-script2": "^2.0.3",
     "vue-tui-editor": "^0.0.1",
     "vuepress": "^1.0.0-alpha.48",
+    "vuepress-pass": "github:InCuca/vuepress-pass",
     "vuepress-plugin-export": "^0.2.0",
     "vuepress-plugin-hotjar": "simonwjackson/vuepress-plugin-hotjar",
     "vuepress-plugin-smooth-scroll": "^0.0.3"

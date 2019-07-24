@@ -1,3 +1,5 @@
+const Pass = require('vuepress-pass');
+
 module.exports = {
   serviceWorker: true,
   markdown: {
@@ -24,7 +26,12 @@ module.exports = {
       'ga': 'UA-141384973-1'
     },
     '@vuepress/nprogress': true,
-    'vuepress-plugin-export': true
+    'vuepress-plugin-export': true,
+    'vuepress-pass': {
+      url: 'http://localhost:8080/index.html',
+      redirectUri: 'http://www.google.com',
+      clientId: 'foobar'
+    }
   },
   locales: {
     '/': {

@@ -1,0 +1,14 @@
+{
+  "rules": {
+    "messages": {
+      ".read": true,
+      ".write": "auth !== null",
+      "$messageId": {
+        ".validate": "newData.child('name').val() === auth.token.name",
+        "text": {
+          ".validate": "newData.isString() && newData.val().length < 300"
+        }
+      }
+    }
+  }
+}
