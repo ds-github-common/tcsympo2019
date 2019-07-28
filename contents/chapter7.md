@@ -30,7 +30,7 @@ DONE  Copied default theme into /Users/yonekurayuuki/jamstack/.vuepress/theme.
 VuePressはVue.jsと呼ばれるJavaScriptフレームワークを利用して作成されています。VuePressのレイアウトや機能を拡張する場合は、Vue.jsの知識が必要になります。
 Vue.jsについて詳しく知りたい場合は下記をご参照ください。
 
-https://jp.vuejs.org/v2/guide/index.html
+[https://jp.vuejs.org/v2/guide/index.html](https://jp.vuejs.org/v2/guide/index.html)
 :::
 
 ## デザインを変更する
