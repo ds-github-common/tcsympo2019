@@ -12,13 +12,13 @@ $ vuepress eject
 DONE  Copied default theme into /Users/yonekurayuuki/jamstack/.vuepress/theme.
 ```
 
-4. `.vuepress/theme`フォルダの`Navbar.vue`ファイルをVisual Studio Codeで開く。
+4. `.vuepress/theme/components`フォルダの`Navbar.vue`ファイルをVisual Studio Codeで開く。
 5. `<NavLinks class="can-hide"/>`と書かれた行を`<AlgoliaSearchBox`の上の行に移動する。
 
-6. `.search-box`と書かれた行の下行に`margin-left 0.8rem`を追加する。
+6. `.search-box`と書かれた行の下行に`margin-left 1rem`を追加する。
 ```js
   .search-box
-    margin-left 0.8rem //この行を追加する。
+    margin-left 1rem //この行を追加する。
     flex: 0 0 auto
 ```
 
@@ -36,23 +36,33 @@ Vue.jsについて詳しく知りたい場合は下記をご参照ください�
 ## デザインを変更する
 スタイルシートを拡張して自由にデザインを変更できます。
 
-1. `.vuepress`フォルダ内に`style.styl`ファイルを作成する。
-1. `style.styl`ファイルをVisual Studio Codeで開く。
-1. 下記のコードを記載して保存する。
+1. `.vuepress`フォルダ内に`styles`フォルダを作成する。
+
+::: warning <i class="fas fa-exclamation-circle"></i> 注意
+`.vuepress/theme`フォルダ内の`styles`フォルダとは別に、`.vuepress`フォルダの直下に`styles`フォルダを作成します。
+:::
+
+2. 作成した`styles`フォルダに`index.styl`ファイルを作成し、Visual Studio Codeで開く。
+3. 下記のコードを記載して保存する。
 ```stylus
-.navbar
-  background-color blue
-  color blue
+.sidebar
+  background-color #eef
 ```
 ::: tip <i class="fas fa-comments"></i> ヒント
 style.stylは、Stylus記法と呼ばれる拡張CSSを使用します。
 Stylus記法の知識がない場合、通常のCSSでも表現できます。
 :::
 
-4. GitHubにデータをプッシュする。
+4. `.vuepress/styles`フォルダに`palette.styl`ファイルを作成し、Visual Studio Codeで開く。
+5. 下記のコードを記載して保存する。
+```stylus
+$accentColor = blue
+```
 
-5. ヘッダー部分の色が変更されていることを確認する。
-![Image from Gyazo](https://i.gyazo.com/559f16d7acd63060fd239d658c6c64b1.png)
+6. GitHubにデータをプッシュする。
+
+7. サイドメニューの背景色とアクセントカラーが変更されたことを確認する。
+![Image from Gyazo](https://i.gyazo.com/e93eb3df61f9febfe410c67f9ff439d6.png)
 
 ## その他の拡張の可能性
 ここでは詳細を避けますが、VuePressを使ったドキュメントサイトはさらに多様な拡張が可能です。
