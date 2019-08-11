@@ -4,4 +4,4 @@ navbar: false
 sidebar: false
 ---
 
-<Callback />
+<Callback/>
