@@ -1,4 +1,5 @@
 const Pass = require('vuepress-pass');
+const Auth = require('vuepress-auth0');
 
 module.exports = {
   serviceWorker: true,
@@ -31,6 +32,11 @@ module.exports = {
       url: 'http://localhost:8080/index.html',
       redirectUri: 'http://www.google.com',
       clientId: 'foobar'
+    },
+    'Auth': {
+      domain: 'human-science.auth0.com',
+      redirectUri: 'https://tcsympo2019-test.firebaseapp.com/callback.html',
+      clientID: 'EyzWT1h6Wk4a3PkpOnhIl0ARTo2WvVpa'
     }
   },
   locales: {
@@ -69,7 +75,7 @@ module.exports = {
     },
     logo: 'https://i.gyazo.com/6de93278653da44a9def69cd44933cc8.png',
     nav: [
-      { text: '', link: '/', awesome: 'fas fa-home' },
+      { text: '', link: '/', awesome: 'fas fa-home', meta:{ auth: true } },
       { text: 'Get Started', link: '/contents/'  },
       {
         text: 'About',

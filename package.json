@@ -17,6 +17,7 @@
     "vue-script2": "^2.0.3",
     "vue-tui-editor": "^0.0.1",
     "vuepress": "^1.0.0-alpha.48",
+    "vuepress-auth0": "^0.2.5",
     "vuepress-pass": "github:InCuca/vuepress-pass",
     "vuepress-plugin-export": "^0.2.0",
     "vuepress-plugin-hotjar": "simonwjackson/vuepress-plugin-hotjar",
