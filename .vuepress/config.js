@@ -109,6 +109,7 @@ module.exports = {
         title: 'Slide',
         children: [
           '/addition/',
+          '/addition/movie'
         ]
       }
     ],
