@@ -1,3 +1,4 @@
+---
 home: false
 navbar: false
 sidebar: false
