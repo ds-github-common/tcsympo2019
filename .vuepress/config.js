@@ -33,7 +33,7 @@ module.exports = {
       redirectUri: 'http://www.google.com',
       clientId: 'foobar'
     },
-    'vuepress-auth0': {
+    Auth: {
       domain: 'human-science.auth0.com',
       redirectUri: 'https://tcsympo2019-test.firebaseapp.com/callback.html',
       clientID: 'EyzWT1h6Wk4a3PkpOnhIl0ARTo2WvVpa'
