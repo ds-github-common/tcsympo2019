@@ -83,7 +83,8 @@ $ echo '# Hello VuePress' > README.md
   },
   "scripts": {
     "dev": "vuepress dev",
-    "build": "vuepress build"
+    "build": "vuepress build",
+    "eject": "vuepress eject"
   }
 }
 ```

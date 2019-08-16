@@ -46,7 +46,7 @@ $ firebase list
 ```
 
 ::: tip <i class="fas fa-comments"></i> ヒント
-上記の例では、`jamstack-xxxxx`がプロジェクトIDに当たります。
+上記の例では、`jamstack-xxxx`がプロジェクトIDに当たります。
 :::
 
 ## CircleCIのセットアップ
@@ -70,14 +70,17 @@ CircleCIと本プロジェクトのGitHubリポジトリを連携します。
 
 6. 本プロジェクトのリポジトリ名の右側にある![Image from Gyazo](https://i.gyazo.com/a24872cdb3f7ce4f3da4b8b745600a22.png)をクリックする。
 
-7. `Add Variable`をクリックする。
-8. `Name`に`FIREBASE_TOKEN`と入力し、`Value`に[Firebaseのデプロイ用TOKENを取得する](#firebaseのデプロイ用tokenを取得する)の手順5で控えたTOKENを入力する。
+7. `Environmental Vaiables`をクリックする。 
+[![Image from Gyazo](https://i.gyazo.com/f18353040f5c9df1c12e29e10e08d0c4.png)](https://gyazo.com/f18353040f5c9df1c12e29e10e08d0c4)
+
+8. `Add Variable`をクリックする。
+9. `Name`に`FIREBASE_TOKEN`と入力し、`Value`に[Firebaseのデプロイ用TOKENを取得する](#firebaseのデプロイ用tokenを取得する)の手順5で控えたTOKENを入力する。
 ![Image from Gyazo](https://i.gyazo.com/8041f455ef4a8dbdcbb1ea8e164a6833.png)
-9. `Add Varibale`をクリックする。
-10. 再度`Add Variable`をクリックする。
-11. `Name`に`FIREBASE_PJ`と入力し、`Value`に[Firebaseのデプロイ用TOKENを取得する](#firebaseのデプロイ用tokenを取得する)の手順6で控えたプロジェクトIDを入力する。
+10. `Add Varibale`をクリックする。
+11. 再度`Add Variable`をクリックする。
+12. `Name`に`FIREBASE_PJ`と入力し、`Value`に[Firebaseのデプロイ用TOKENを取得する](#firebaseのデプロイ用tokenを取得する)の手順6で控えたプロジェクトIDを入力する。
 ![Image from Gyazo](https://i.gyazo.com/aed3712cc26cc951a66fb338aacf8c7b.png)
-9. `Add Varibale`をクリックする。
+13. `Add Varibale`をクリックする。
 
 以上でCircleCIと本プロジェクトのリポジトリが連携されました。
 
