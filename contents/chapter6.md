@@ -15,7 +15,7 @@ $ firebase login:ci
 
   ブラウザが立ち上がり、Googleアカウントのログイン画面が表示されます。
 
-4. Googleアカウントでログインします。
+4. Googleアカウントでログインする。
 
 ![Image from Gyazo](https://i.gyazo.com/93986847e268821a9fc0571a92f4898d.png)
 
