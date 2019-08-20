@@ -34,7 +34,7 @@ module.exports = {
       clientId: 'foobar'
     },
     Auth: {
-      domain: 'human-science.auth0.com',
+      domain: 'https://human-science.auth0.com',
       redirectUri: 'https://tcsympo2019-test.firebaseapp.com/callback.html',
       clientID: 'EyzWT1h6Wk4a3PkpOnhIl0ARTo2WvVpa'
     }
