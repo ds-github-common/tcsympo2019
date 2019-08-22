@@ -3,7 +3,7 @@ jobs:
   build:
     working_directory: ~/workspace
     docker:
-      - image: node:9.11
+      - image: node:10.1
         environment:
           TZ: "/usr/share/zoneinfo/Asia/Tokyo"
           DEPLOY_BRANCH: master
