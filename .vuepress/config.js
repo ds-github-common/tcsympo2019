@@ -26,6 +26,7 @@ module.exports = {
     '@vuepress/google-analytics': {
       'ga': 'UA-141384973-1'
     },
+    '@silvanite/tailwind': true,
     '@vuepress/nprogress': true,
     'vuepress-plugin-export': true,
     'vuepress-pass': {
@@ -74,7 +75,7 @@ module.exports = {
       apiKey: '2eff79e105aa6a825d890c720887cb5b',
       indexName: 'tcsympo2019_test'
     },
-    logo: 'https://i.gyazo.com/6de93278653da44a9def69cd44933cc8.png',
+    logo: '/image/hs-logo.svg',
     nav: [
       { text: '', link: '/', awesome: 'fas fa-home', meta:{ auth: true } },
       { text: 'Get Started', link: '/contents/'  },

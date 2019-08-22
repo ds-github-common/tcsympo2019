@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
+    "@silvanite/vuepress-plugin-tailwind": "^1.1.0",
     "@vuepress/plugin-back-to-top": "^1.0.0-alpha.48",
     "@vuepress/plugin-google-analytics": "^1.0.0-alpha.48",
     "@vuepress/plugin-medium-zoom": "^1.0.0-alpha.48",
@@ -12,7 +13,7 @@
     "firebase": "^6.2.4",
     "firebase-tools": "^6.10.0",
     "markdown-it-fontawesome": "^0.3.0",
-    "tailwindcss": "^0.7.4",
+    "tailwindcss": "^1.1.2",
     "vue-lottie": "^0.2.1",
     "vue-script2": "^2.0.3",
     "vue-tui-editor": "^0.0.1",

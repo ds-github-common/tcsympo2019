@@ -1,3 +1,7 @@
+@tailwind preflight;
+@tailwind components;
+@tailwind utilities;
+
 $accentColor = #5b3cc4
 $textColor = #5b5777
 $borderColor = #eaecef
@@ -228,3 +232,27 @@ table
   top 0
   right 0
   height 100%
+
+.gradient
+  background linear-gradient(45deg, #3e26e6 0%, #7312a5 100%)
+
+.home
+  color white
+  background linear-gradient(45deg, #3e26e6 0%, #7312a5 100%)
+  max-width initial
+  padding 0!important
+
+.hero
+  display none
+
+.features
+  display none
+
+button:focus
+	outline 0
+
+.aspect-16x9
+  padding-bottom 56.25%
+
+.footer
+  font-weight bold
