@@ -354,11 +354,11 @@ footer: © Human Science co., ltd.
 			<div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
 		</div>
 		<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-    <div class="max-w-md pt-1 bg-grey-darkest overflow-hidden shadow-lg my-2">
+    <div class="max-w-md pt-1 overflow-hidden shadow-lg my-2">
   <img class="w-full" src="./carbon01.png" alt="vuepress">
   <div class="px-6 py-4">
-    <div class="font-bold text-xl mb-2 text-white">VuePress</div>
-    <p class="text-base text-grey-light">
+    <div class="font-bold text-xl mb-2 text-grey-darker">VuePress</div>
+    <p class="text-base text-grey-darker">
       静的サイトジェネレーターの１種類であるVuePressを使って高品質な静的サイトをMarkdownから生成します。
     </p>
   </div>
