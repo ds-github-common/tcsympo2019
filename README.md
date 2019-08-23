@@ -8,7 +8,7 @@ footer: © Human Science co., ltd.
 	<div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
 		<!--Left Col-->
 		<div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
-    <p class="uppercase tracking-loose w-full">ENHANCE ANY WEBSITE WITH JAMSTACK</p>
+    <p class="mt-6 uppercase tracking-loose w-full">ENHANCE ANY WEBSITE WITH JAMSTACK</p>
 			<h1 class="text-5xl font-bold leading-tight text-white">Webマニュアル30分クッキング</h1>
 			<p class="leading-normal text-2xl mb-8 w-full">MarkdownにJAMstackを添えて</p>
       <div class="w-full">
