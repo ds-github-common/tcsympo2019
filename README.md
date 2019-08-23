@@ -349,14 +349,14 @@ footer: © Human Science co., ltd.
 		</div>
 	</div>
 </section>
-<section class="bg-white border-b py-8">
+<section class="bg-grey-light border-b py-8">
 	<div class="container mx-auto flex flex-wrap pt-4 pb-12">
-		<h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-grey-darkest">CONTENTS</h1>
+		<h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-white">CONTENTS</h1>
 		<div class="w-full mb-4">	
 			<div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
 		</div>
 		<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-    <div class="max-w-md pt-1 overflow-hidden shadow-lg my-2">
+    <div class="bg-white max-w-md pt-1 overflow-hidden shadow-lg my-2">
   <img class="w-full" src="./carbon01.png" alt="vuepress">
   <div class="px-6 py-4">
     <div class="font-bold text-xl mb-2 text-grey-darker">VuePress</div>
@@ -378,7 +378,7 @@ footer: © Human Science co., ltd.
 </div>
 		</div>
 		<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-			<div class="max-w-md pt-1 overflow-hidden shadow-lg my-2">
+			<div class="bg-white max-w-md pt-1 overflow-hidden shadow-lg my-2">
   <img class="w-full" src="./carbon02.png" alt="firebase">
   <div class="px-6 py-4">
     <div class="font-bold text-xl mb-2 text-grey-darker">Firebase</div>
@@ -400,7 +400,7 @@ footer: © Human Science co., ltd.
 </div>
 		</div>
 		<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
-			<div class="max-w-md pt-1 overflow-hidden shadow-lg my-2">
+			<div class="bg-white max-w-md pt-1 overflow-hidden shadow-lg my-2">
   <img class="w-full" src="./carbon03.png" alt="circleci">
   <div class="px-6 py-4">
     <div class="font-bold text-xl mb-2 text-grey-darker">CircleCI</div>
@@ -423,14 +423,14 @@ footer: © Human Science co., ltd.
 		</div>
 	</div>
 </section>
-<section class="bg-grey-lightest py-8">
+<section class="bg-white py-8">
 	<div class="container mx-auto px-2 pt-4 pb-12 text-grey-darkest">
 		<h1 class="w-full my-2 text-5xl font-bold leading-tight text-center">MOVIE</h1>
 		<div class="w-full mb-8">	
 			<div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
 		</div>
     <div class="relative aspect-16x9">
-      <iframe class="absolute pin w-full h-full" src="https://www.youtube.com/embed/Fnl5m7iCuZo?rel=0&amp;modestbranding=1&amp;controls=0&amp;showinfo=1&amp;autoplay=1&amp;loop=1&amp;playlist=Fnl5m7iCuZo&amp;muted=1" frameborder="0" allow="autoplay; encrypted-media"></iframe>
+      <iframe class="shadow-md focus:shadow-outline absolute pin w-full h-full" src="https://www.youtube.com/embed/Fnl5m7iCuZo?rel=0&amp;modestbranding=1&amp;controls=0&amp;showinfo=1&amp;autoplay=1&amp;loop=1&amp;playlist=Fnl5m7iCuZo&amp;muted=1" frameborder="1" allow="autoplay; encrypted-media"></iframe>
     </div>
 	</div>
 </section>
@@ -438,7 +438,7 @@ footer: © Human Science co., ltd.
 <svg class="wave-top" viewBox="0 0 1439 147" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 	<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
 		<g transform="translate(-1.000000, -14.000000)" fill-rule="nonzero">
-			<g class="wave" fill="#f8fafc">
+			<g class="wave" fill="#fff">
 				<path d="M1440,84 C1383.555,64.3 1342.555,51.3 1317,45 C1259.5,30.824 1206.707,25.526 1169,22 C1129.711,18.326 1044.426,18.475 980,22 C954.25,23.409 922.25,26.742 884,32 C845.122,37.787 818.455,42.121 804,45 C776.833,50.41 728.136,61.77 713,65 C660.023,76.309 621.544,87.729 584,94 C517.525,105.104 484.525,106.438 429,108 C379.49,106.484 342.823,104.484 319,102 C278.571,97.783 231.737,88.736 205,84 C154.629,75.076 86.296,57.743 0,32 L0,0 L1440,0 L1440,84 Z"></path>
 			</g>
 			<g transform="translate(1.000000, 15.000000)" fill="#FFFFFF">
@@ -452,7 +452,12 @@ footer: © Human Science co., ltd.
 	</g>
 </svg>
 <section class="container mx-auto text-center py-6">
-  <div class="mb-8">
+  <h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-white">CONTACT</h1>
+  <div class="w-full mb-4">	
+    <div class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
+  </div>
+  <h4 class="my-4 text-3xl leading-tight text-white">JAMstackシステムのお問い合わせは弊社サイトまで</h4>
+  <div class="my-8">
     <a href="https://www.science.co.jp/contact/index.html">
       <button class="bg-yellow hover:bg-yellow-dark text-grey-darkest font-bold py-2 px-4 rounded inline-flex items-center">
         <svg class="fill-current w-5 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
