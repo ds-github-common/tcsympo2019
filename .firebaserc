@@ -1,5 +1,6 @@
 {
   "projects": {
-    "staging": "tcsympo2019-test"
+    "staging": "tcsympo2019-test",
+    "default": "tcsympo2019-test"
   }
 }
