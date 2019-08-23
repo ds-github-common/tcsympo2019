@@ -452,16 +452,14 @@ footer: © Human Science co., ltd.
 	</g>
 </svg>
 <section class="container mx-auto text-center py-6">
-	<h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-white">ABOUT</h1>
-	<div class="w-full mb-4">	
-		<div class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
-	</div>
-	<h3 class="my-4 text-3xl leading-tight text-white">JAMstackシステムのお問い合わせは弊社サイトまで</h3>
-  <a href="https://www.science.co.jp/contact/index.html">
-    <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
-      <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/><path d="M0 0h24v24H0z" fill="none"/><span>お問い合わせ</span>
-    </button>
-  </a>
+  <div class="mb-8">
+    <a href="https://www.science.co.jp/contact/index.html">
+      <button class="bg-yellow hover:bg-yellow-dark text-grey-darkest font-bold py-2 px-4 rounded inline-flex items-center">
+        <svg class="fill-current w-5 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+        <span>お問い合わせはこちら</span>
+      </button>
+    </a>
+  </div>
 </div>
 
 
