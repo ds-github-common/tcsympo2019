@@ -11,9 +11,11 @@ footer: © Human Science co., ltd.
     <p class="uppercase tracking-loose w-full">ENHANCE ANY WEBSITE WITH JAMSTACK</p>
 			<h1 class="text-5xl font-bold leading-tight text-white">Webマニュアル30分クッキング</h1>
 			<p class="leading-normal text-2xl mb-8 w-full">MarkdownにJAMstackを添えて</p>
+      <div class="w-full">
       <a href="./contents">
 			<button class="mx-auto lg:mx-0 bg-yellow hover:bg-yellow-dark  text-black font-bold rounded-full z-10 mb-8 py-3 px-6 shadow-lg">Get Started</button>
       </a>
+      </div>
 		</div>
 		<!--Right Col-->
 		<div class="w-full md:w-3/5 py-6 text-center">
@@ -42,7 +44,7 @@ footer: © Human Science co., ltd.
 			<div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
 		</div>
 		<div class="flex flex-wrap">
-			<div class="w-5/6 sm:w-1/2 p-6">
+			<div class="w-6/6 sm:w-1/2 p-6">
 				<h3 class="text-3xl text-grey-darkest font-bold leading-none mb-3">もっと早く</h3>
 				<p class="text-grey-dark mb-8">Webサイトの読み込みに3秒以上かかると、53％の閲覧者が離脱します。Webサイトのパフォーマンスはコンテンツの品質と同様に重要な要素です。またWebサイト構築にかかるリードタイムの短さも大事な要素です。Webページ閲覧の「速さ」と構築の「早さ」の両方を実現する技術がJAMstackです。</p>
 			</div>
@@ -158,7 +160,7 @@ footer: © Human Science co., ltd.
 			</div>
 		</div>
     <div class="flex flex-wrap">
-			<div class="w-5/6 sm:w-1/2 p-6">
+			<div class="w-6/6 sm:w-1/2 p-6">
 				<h3 class="text-3xl text-grey-darkest font-bold leading-none mb-3">もっと簡単に</h3>
 				<p class="text-grey-dark mb-8">Webサイトの読み込みに3秒以上かかると、53％の閲覧者が離脱します。Webサイトのパフォーマンスはコンテンツの品質と同様に重要な要素です。またWebサイト構築にかかるリードタイムの短さも大事な要素です。Webページ閲覧の「速さ」と構築の「早さ」の両方を実現する技術がJAMstackです。</p>
 			</div>
@@ -362,9 +364,16 @@ footer: © Human Science co., ltd.
       静的サイトジェネレーターの１種類であるVuePressを使って高品質な静的サイトをMarkdownから生成します。
     </p>
   </div>
-  <div class="px-6 py-4">
-    <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2"># aaa</span>
-    <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2"># bbb</span>
+  <div class="px-6 pb-4">
+  <a href="https://tcsympo2019-test.firebaseapp.com/contents/">
+    <span class="inline-block hover:bg-pink bg-pink-lighter rounded-full px-3 py-1 text-sm font-semibold hover:text-white text-grey-darker mr-2">環境準備</span>
+    </a>
+    <a href="https://tcsympo2019-test.firebaseapp.com/contents/chapter1.html">
+    <span class="inline-block hover:bg-green bg-green-lighter rounded-full px-3 py-1 text-sm font-semibold hover:text-white text-grey-darker mr-2">プロジェクト</span>
+    </a>
+        <a href="https://tcsympo2019-test.firebaseapp.com/contents/chapter2.html">
+    <span class="inline-block hover:bg-blue bg-blue-lighter rounded-full px-3 py-1 text-sm font-semibold hover:text-white text-grey-darker mr-2">config.js</span>
+    </a>
   </div>
 </div>
 		</div>
@@ -377,9 +386,16 @@ footer: © Human Science co., ltd.
       静的サイトのホスティングとしてFirebase Hostingを利用します。無料でHTTPSを発行してくれます。
     </p>
   </div>
-  <div class="px-6 py-4">
-    <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2"># ccc</span>
-    <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2"># ddd</span>
+  <div class="px-6 pb-4">
+  <a href="https://tcsympo2019-test.firebaseapp.com/contents/chapter4.html">
+    <span class="inline-block hover:bg-purple bg-purple-lighter rounded-full px-3 py-1 text-sm font-semibold hover:text-white text-grey-darker mr-2">GitHub</span>
+    </a>
+    <a href="https://tcsympo2019-test.firebaseapp.com/contents/chapter5.html#firebase%E3%81%B8%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3%E3%81%99%E3%82%8B">
+    <span class="inline-block hover:bg-yellow bg-yellow-light rounded-full px-3 py-1 text-sm font-semibold hover:text-white text-grey-darker mr-2">ログイン</span>
+    </a>
+        <a href="https://tcsympo2019-test.firebaseapp.com/contents/chapter5.html#firebase%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%82%92%E9%96%8B%E5%A7%8B%E3%81%99%E3%82%8B">
+    <span class="inline-block hover:bg-teal bg-teal-lighter rounded-full px-3 py-1 text-sm font-semibold hover:text-white text-grey-darker mr-2">デプロイ</span>
+    </a>
   </div>
 </div>
 		</div>
@@ -392,9 +408,16 @@ footer: © Human Science co., ltd.
       CircleCIを使って、静的サイトのビルドとFirebaseへのホスティング作業を自動化します。
     </p>
   </div>
-  <div class="px-6 py-4">
-    <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2"># eee</span>
-    <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2"># fff</span>
+  <div class="px-6 pb-4">
+  <a href="https://tcsympo2019-test.firebaseapp.com/contents/chapter6.html#firebase%E3%81%AE%E3%83%87%E3%83%97%E3%83%AD%E3%82%A4%E7%94%A8token%E3%82%92%E5%8F%96%E5%BE%97%E3%81%99%E3%82%8B">
+    <span class="inline-block hover:bg-red bg-red-lighter rounded-full px-3 py-1 text-sm font-semibold hover:text-white text-grey-darker mr-2">TOKEN</span>
+    </a>
+    <a href="https://tcsympo2019-test.firebaseapp.com/contents/chapter6.html#circleci%E3%81%AE%E3%82%BB%E3%83%83%E3%83%88%E3%82%A2%E3%83%83%E3%83%97">
+    <span class="inline-block hover:bg-orange bg-orange-lighter rounded-full px-3 py-1 text-sm font-semibold hover:text-white text-grey-darker mr-2">セットアップ</span>
+    </a>
+    <a href="https://tcsympo2019-test.firebaseapp.com/contents/chapter6.html#circleci%E3%81%AE%E3%82%BB%E3%83%83%E3%83%88%E3%82%A2%E3%83%83%E3%83%97">
+    <span class="inline-block hover:bg-indigo bg-indigo-lighter rounded-full px-3 py-1 text-sm font-semibold hover:text-white text-grey-darker mr-2">config.yml</span>
+    </a>
   </div>
 </div>
 		</div>
@@ -407,7 +430,7 @@ footer: © Human Science co., ltd.
 			<div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
 		</div>
     <div class="relative aspect-16x9">
-      <iframe class="absolute pin w-full h-full" src="https://www.youtube.com/embed/tTXxh6lxP4Q?rel=0&amp;modestbranding=1&amp;controls=0&amp;showinfo=1&amp;autoplay=1&amp;loop=1&amp;playlist=tTXxh6lxP4Q&amp;muted=1" frameborder="0" allow="autoplay; encrypted-media"></iframe>
+      <iframe class="absolute pin w-full h-full" src="https://www.youtube.com/embed/Fnl5m7iCuZo?rel=0&amp;modestbranding=1&amp;controls=0&amp;showinfo=1&amp;autoplay=1&amp;loop=1&amp;playlist=Fnl5m7iCuZo&amp;muted=1" frameborder="0" allow="autoplay; encrypted-media"></iframe>
     </div>
 	</div>
 </section>
@@ -436,3 +459,58 @@ footer: © Human Science co., ltd.
 	<h3 class="my-4 text-3xl leading-tight text-white">JAMstackシステムのお問い合わせは弊社サイトまで</h3>	
 	<button class="mx-auto lg:mx-0 hover:underline bg-white text-grey-darkest font-bold rounded-full my-6 py-4 px-8 shadow-lg">Action!</button>
 </section>
+
+<!-- <script>
+$(function() {
+  $(document).ready(function(){
+    if($('.home-wrap').length && window.scrollY === 0)
+    {
+      $('.home-wrap').siblings('.navbar').css({
+        'background-color': 'initial',
+        'color': '#fff',
+        'box-shadow': 'initial',
+        'border-bottom': 'initial'
+      });
+    }
+  });
+  
+  document.addEventListener('scroll', function() {
+    if(window.scrollY === 0)
+    {
+      $('.home-wrap').siblings('.navbar').css({
+        'background-color': 'initial',
+        'color': '#fff',
+        'box-shadow': 'initial',
+        'border-bottom': 'initial'
+      });
+    }
+    else {
+      $('.home-wrap').siblings('.navbar').css({
+        'background-color': 'hsla(0,0%,100%,.7)',
+        'color': '#5b5777',
+        'box-shadow': '0 0 10px 0 rgba(0,0,0,.1)',
+        'border-bottom': '1px solid #eaecef'
+      });
+    }
+  })
+
+  $('a').on('click', function() {
+    if(!($('.home-wrap').length)) {
+      $('.navbar').css({
+        'background-color': 'hsla(0,0%,100%,.7)',
+        'color': '#5b5777',
+        'box-shadow': '0 0 10px 0 rgba(0,0,0,.1)',
+        'border-bottom': '1px solid #eaecef'
+      })
+    }
+    else {
+      $('.home-wrap').siblings('.navbar').css({
+        'background-color': 'initial',
+        'color': '#fff',
+        'box-shadow': 'initial',
+        'border-bottom': 'initial'
+      });
+    }
+  })
+})
+</script> -->
