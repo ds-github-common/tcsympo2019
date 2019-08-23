@@ -457,8 +457,11 @@ footer: © Human Science co., ltd.
 		<div class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
 	</div>
 	<h3 class="my-4 text-3xl leading-tight text-white">JAMstackシステムのお問い合わせは弊社サイトまで</h3>
-  <div class="iframe-wrap">
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdSKgZpgMngHoTz_MXMTa8C_XViLBzHbXg5bAeS18brCDuVnQ/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
+  <a href="https://www.science.co.jp/contact/index.html">
+    <button class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
+      <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/><path d="M0 0h24v24H0z" fill="none"/><span>お問い合わせ</span>
+    </button>
+  </a>
 </div>
 
 
