@@ -40,7 +40,7 @@ $nprogressColor = #5b3cc4
   font-weight 900
 
 header-color = #5b5777
-header-bgcolor = rgba(255,255,255,0.7) 
+header-bgcolor = rgba(255,255,255,0.5) 
 
 @font-face
   font-family "Yu Gothic"
@@ -107,10 +107,11 @@ body
   word-break break-word!important
 
 .navbar
-  background-color header-bgcolor
+  background-color header-bgcolor!important
   color header-color
   box-shadow 0 0 10px 0 rgba(0,0,0,0.1)
   backdrop-filter blur(2px)
+  border-bottom: initial!important
 
 .navbar .site-name
   color header-color
@@ -167,6 +168,7 @@ div[class*="language-"]
   border-left-width initial
   border-left-style initial
   margin 1.5rem
+  padding 1rem 1.5rem
 
 .custom-block.tip, .custom-block.warning, .custom-block.danger
   .custom-block-title
