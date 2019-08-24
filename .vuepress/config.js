@@ -91,7 +91,7 @@ module.exports = {
         text: 'SNS',
         items: [
           { text: 'GitHub', link: 'https://github.com/hs-yonekura/tcsympo2019', awesome: 'fab fa-github' },
-          { text: 'Slack', link: 'https://join.slack.com/t/jamstackhq/shared_invite/enQtNjU0ODk3MDIwOTE4LWE3ZTgzYjRlNzk4YjAyYzJhM2IzZjk5YjIxZDRmMTQ1YWFiYjRlOTgyMGE0OTk3YWVlODMxNDk5Njc3N2YwZmE', awesome: 'fab fa-slack' },
+          { text: 'Slack', link: 'jamstackhq.slack.com', awesome: 'fab fa-slack' },
           { text: 'Twitter', link: 'https://twitter.com/yuukikun31', awesome: 'fab fa-twitter' },
           { text: 'Line', link: 'http://line.naver.jp/ti/p/pWQDiJosnD', awesome: 'fab fa-line' }
         ]
