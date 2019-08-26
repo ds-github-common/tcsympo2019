@@ -55,7 +55,7 @@
       </div>
       <div class="con-copy">
         <a href="https://github.com/hs-yonekura/tcsympo2019" target="_blank" rel="noopener noreferrer" class="github"><i class="footer-awesome fab fa-github"></i></a>
-        <a href="https://join.slack.com/t/jamstackhq/shared_invite/enQtNjU0ODk3MDIwOTE4LWE3ZTgzYjRlNzk4YjAyYzJhM2IzZjk5YjIxZDRmMTQ1YWFiYjRlOTgyMGE0OTk3YWVlODMxNDk5Njc3N2YwZmE" target="_blank" rel="noopener noreferrer" class="slack"><i class="footer-awesome fab fa-slack"></i></a>
+        <a href="https://jamstackhq.slack.com" target="_blank" rel="noopener noreferrer" class="slack"><i class="footer-awesome fab fa-slack"></i></a>
         <a href="https://twitter.com/yuukikun31" target="_blank" rel="noopener noreferrer" class="twitter"><i class="footer-awesome fab fa-twitter"></i></a>
         <a href="http://line.naver.jp/ti/p/pWQDiJosnD" target="_blank" rel="noopener noreferrer" class="line"><i class="footer-awesome fab fa-line"></i></a>
       </div>
