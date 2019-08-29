@@ -46,7 +46,7 @@ module.exports = {
 module.exports = {
   themeConfig: {
     // logoのイメージファイルを参照させます。
-    logo: 'https://www.science.co.jp/wordpress/wp-content/themes/humanscience/common/img/logo.jpg'*/,
+    logo: 'https://www.science.co.jp/wordpress/wp-content/themes/humanscience/common/img/logo.jpg',
 
     // ナビゲーションにコンテンツに加える内容を追加させます。
     nav: [
