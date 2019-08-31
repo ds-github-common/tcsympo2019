@@ -29,10 +29,6 @@ module.exports = {
     'sitemap': {
       hostname: 'https://tcsympo2019-test.firebaseapp.com'
     },
-    'contact-us': {
-      email: 'y-yonekura@science.co.jp',
-      labelLanguage: 'en',
-    },
     '@silvanite/tailwind': true,
     '@vuepress/nprogress': true,
 		'vuepress-plugin-export': true,
