@@ -21,6 +21,7 @@
     "vuepress": "^1.0.0-alpha.48",
     "vuepress-auth0": "^0.2.5",
     "vuepress-pass": "github:InCuca/vuepress-pass",
+    "vuepress-plugin-contact-us": "^1.0.3",
     "vuepress-plugin-export": "^0.2.0",
     "vuepress-plugin-feed": "^0.1.7",
     "vuepress-plugin-hotjar": "simonwjackson/vuepress-plugin-hotjar",
