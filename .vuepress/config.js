@@ -31,7 +31,7 @@ module.exports = {
     },
     'contact-us': {
       email: 'y-yonekura@science.co.jp',
-      labelLanguage: 'jp',
+      labelLanguage: 'en',
     },
     '@silvanite/tailwind': true,
     '@vuepress/nprogress': true,
