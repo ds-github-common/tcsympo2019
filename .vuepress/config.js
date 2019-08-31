@@ -26,6 +26,9 @@ module.exports = {
     '@vuepress/google-analytics': {
       'ga': 'UA-141384973-1'
     },
+    'sitemap': {
+      hostname: 'https://tcsympo2019-test.firebaseapp.com'
+    },
     '@silvanite/tailwind': true,
     '@vuepress/nprogress': true,
 		'vuepress-plugin-export': true,
