@@ -10,6 +10,7 @@
     "@vuepress/plugin-medium-zoom": "^1.0.0-alpha.48",
     "@vuepress/plugin-nprogress": "^1.0.0-alpha.48",
     "@vuepress/plugin-pwa": "^1.0.0-alpha.48",
+    "esm": "^3.2.25",
     "firebase": "^6.2.4",
     "firebase-tools": "^6.10.0",
     "markdown-it-fontawesome": "^0.3.0",
@@ -29,6 +30,7 @@
   },
   "scripts": {
     "dev": "vuepress dev",
-    "build": "vuepress build"
+    "build": "vuepress build",
+    "postbuild": "vuepress-sitemap -H https://tcsympo2019-test.firebaseapp.com"
   }
 }

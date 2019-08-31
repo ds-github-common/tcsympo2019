@@ -34,7 +34,7 @@ module.exports = {
 		'vuepress-plugin-export': true,
     'feed': {
       canonical_base: 'https://webmasterish.com'
-    }
+    },
 		'seo': {
 			siteTitle: (_, $site) => $site.title,
 			title: $page => $page.title,
