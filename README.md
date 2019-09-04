@@ -14,7 +14,7 @@ footer: © Human Science co., ltd.
 			<p class="leading-normal text-2xl mb-8 w-full">MarkdownにJAMstackを添えて</p>
       <div class="w-full">
       <a href="./contents">
-			<button class="mx-auto lg:mx-0 bg-yellow hover:bg-yellow-dark  text-black font-bold rounded-full z-10 mb-8 py-3 px-6 shadow-lg">Get Started</button>
+			<button class="mx-auto lg:mx-0 bg-yellow hover:bg-yellow-dark  text-black font-bold rounded-full z-100 mb-8 py-3 px-6 shadow-lg">Get Started</button>
       </a>
       </div>
 		</div>
