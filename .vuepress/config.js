@@ -130,8 +130,7 @@ module.exports = {
           '/contents/chapter4',
           '/contents/chapter5',
           '/contents/chapter6',
-          '/contents/chapter7',
-          '/contents/chapter8'
+          '/contents/chapter7'
         ]
       },
       {
