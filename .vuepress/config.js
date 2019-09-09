@@ -65,7 +65,7 @@ module.exports = {
     }
   },
   title: 'Webマニュアル30分マニュアル',
-  description: 'MarkdownにJAMstackを添えて',
+  description: 'MarkdownにJAMstackを添えて...Markdownのみで高品質なサイトを作成できます。JAMstackと呼ばれるシステム構成によって、SPA、SSR、高度なSEO対策などモダンな技術を簡易に実装できます。',
   head: [
     ['script', { src: 'https://code.jquery.com/jquery-3.4.1.slim.min.js', integrity: 'sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=', crossorigin: 'anonymous' }],
     ['meta', { name: 'google-site-verification', content: 'yf8Wl1xWyaav2ythn90XsOB1xz5Cu_dobu3INPFyWok' }],
