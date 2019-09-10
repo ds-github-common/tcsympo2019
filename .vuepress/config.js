@@ -37,7 +37,7 @@ module.exports = {
     },
 		'seo': {
 			siteTitle: (_, $site) => $site.title,
-			title: "$page => $page.title",
+			title: $page => "Webマニュアル30分マニュアル",
 			description: $page => $page.frontmatter.description,
 			author: (_, $site) => $site.themeConfig.author,
 			tags: $page => $page.frontmatter.tags,
