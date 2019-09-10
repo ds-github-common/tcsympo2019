@@ -37,11 +37,11 @@ module.exports = {
     },
 		'seo': {
 			siteTitle: (_, $site) => $site.title,
-			title: $page => $page.title,
+			title: "Webマニュアル30分マニュアル",
 			description: $page => $page.frontmatter.description,
 			author: (_, $site) => $site.themeConfig.author,
 			tags: $page => $page.frontmatter.tags,
-			twitterCard: _ => 'summary_large_image',
+			twitterCard: _ => 'summary.png',
 			type: $page => ['articles', 'posts', 'blog'].some(folder => $page.regularPath.startsWith('/' + folder)) ? 'article' : 'website',
 			url: (_, $site, path) => ($site.themeConfig.domain || '') + path,
 			image: ($page, $site) => $page.frontmatter.image && (($site.themeConfig.domain || '') + $page.frontmatter.image),
