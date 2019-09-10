@@ -88,7 +88,7 @@ module.exports = {
     ['link', { rel: 'apple-touch-startup-image', media: '(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2)', href: 'image/apple-launch-1536x2048.png' }],
     ['meta', { name: 'theme-color' , content: '#317EFB' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1.0,minimum-scale=1.0' }]
+    ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1.0,minimum-scale=1.0' }],
     ['meta', { property: 'og:image', content: '/assets/image/summary.png' }]
   ],
   themeConfig: {
