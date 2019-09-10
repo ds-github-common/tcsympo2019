@@ -37,13 +37,14 @@ module.exports = {
     },
 		'seo': {
 			siteTitle: (_, $site) => $site.title,
-			title: $page => "Webマニュアル30分マニュアル",
+			title: $page => 'Webマニュアル30分マニュアル',
 			description: $page => $page.frontmatter.description,
 			author: (_, $site) => $site.themeConfig.author,
 			tags: $page => $page.frontmatter.tags,
-      twitterCard: _ => 'image/summary.png',
+			twitterCard: _ => 'summary_large_image',
 			type: $page => ['articles', 'posts', 'blog'].some(folder => $page.regularPath.startsWith('/' + folder)) ? 'article' : 'website',
 			url: (_, $site, path) => ($site.themeConfig.domain || '') + path,
+      // image: ($page, $site) => $page.frontmatter.image && (($site.themeConfig.domain || '') + $page.frontmatter.image),
 			image: ($page, $site) => $page.frontmatter.image && (($site.themeConfig.domain || '') + $page.frontmatter.image),
 			publishedAt: $page => $page.frontmatter.date && new Date($page.frontmatter.date),
 			modifiedAt: $page => $page.lastUpdated && new Date($page.lastUpdated),
@@ -88,6 +89,7 @@ module.exports = {
     ['meta', { name: 'theme-color' , content: '#317EFB' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1.0,minimum-scale=1.0' }]
+    ['meta', { property: 'og:image', content: '/assets/image/summary.png' }]
   ],
   themeConfig: {
     algolia: {
