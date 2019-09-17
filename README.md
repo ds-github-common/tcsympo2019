@@ -163,7 +163,7 @@ footer: © Human Science co., ltd.
     <div class="flex flex-wrap">
 			<div class="w-6/6 sm:w-1/2 p-6">
 				<h3 class="text-3xl text-grey-darkest font-bold leading-none mb-3">もっと簡単に</h3>
-				<p class="text-grey-dark mb-8">Webサイトの読み込みに3秒以上かかると、53％の閲覧者が離脱します。Webサイトのパフォーマンスはコンテンツの品質と同様に重要な要素です。またWebサイト構築にかかるリードタイムの短さも大事な要素です。Webページ閲覧の「速さ」と構築の「早さ」の両方を実現する技術がJAMstackです。</p>
+				<p class="text-grey-dark mb-8">軽量マークアップ言語の中でももっとも簡潔な記法を持つMarkdownを使うことで、面倒なHTMLコーディングから解放されます。学習コスト不要で始められるため、無用な工数をかけずにコンテンツの作成に注力できます。</p>
 			</div>
 			<div class="w-full sm:w-1/2 p-6">
 				<svg class="w-full sm:h-64 mx-auto" viewBox="0 0 1126.81 633.59">
