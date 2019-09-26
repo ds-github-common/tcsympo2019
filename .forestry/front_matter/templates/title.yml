@@ -1,4 +1,9 @@
 ---
 label: title
 hide_body: false
-fields: []
+fields:
+- name: test
+  type: file
+  config:
+    maxSize: 250
+  label: test
