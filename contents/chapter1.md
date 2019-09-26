@@ -1,3 +1,6 @@
++++
+
++++
 # VuePressプロジェクトの開始
 
 ## VuePressプロジェクトを作る
@@ -6,6 +9,7 @@
 
 1. コマンドラインツール（Windowsであればコマンドプロンプト、Macであればターミナル）を開く。
 2. 作業用フォルダを作る。
+
 ```bash
 # jamstackフォルダを作る。
 $ mkdir jamstack
@@ -18,7 +22,8 @@ $ cd jamstack
 フォルダ名は任意です。
 :::
 
-3. yarnでpackage.jsonを作成する。
+1. yarnでpackage.jsonを作成する。
+
 ```bash
 # package.json
 $ yarn init
@@ -39,7 +44,8 @@ success Saved package.json
 対話形式で **package.json** の内容を確定します。ここでは全て空欄のままでも問題ありません。
 :::
 
-4. VuePressをインストールする。
+1. VuePressをインストールする。
+
 ```bash
 # vuepressパッケージをdevDependenciesにインストールする。
 $ yarn add -D vuepress@next
@@ -54,9 +60,11 @@ $ yarn add -D vuepress@next
 以上でVuePressのプロジェクトが開始されます。
 
 ## ローカルサーバーを立ち上げる
+
 上記の手順で作成したプロジェクトをローカルサーバーで立ち上げます。
 
 1. 仮のMarkdownファイルを作成する。
+
 ```bash
 # README.mdを作成する。
 $ echo '# Hello VuePress' > README.md
@@ -69,7 +77,8 @@ $ echo '# Hello VuePress' > README.md
 # └── yarn.lock
 ```
 
-2. **package.json** を編集する。
+1. **package.json** を編集する。
+
 ```json
 // コマンド省略のために下記を追加する。
 // 「vuepress dev」は、「yarn vuepress dev」と同意になる。
@@ -94,7 +103,8 @@ $ echo '# Hello VuePress' > README.md
 ![Image from Gyazo](https://i.gyazo.com/1d9bef857344602d72e445cc3cfec41d.png)
 :::
 
-3. ローカルサーバーを立ち上げる。
+1. ローカルサーバーを立ち上げる。
+
 ```bash
 # ローカルサーバーを立ち上げる。
 $ yarn dev
@@ -103,8 +113,8 @@ DONE  [09:54:30] Build 6dd12b finished in 5298 ms!
 > VuePress dev server listening at http://localhost:8080/
 ```
 
-4. Webブラウザで `http://localhost:8080` を開く。
-![Image from Gyazo](https://i.gyazo.com/43f740a3c079e2eddad1e59141da4de5.png)
+1. Webブラウザで `http://localhost:8080` を開く。
+   ![Image from Gyazo](https://i.gyazo.com/43f740a3c079e2eddad1e59141da4de5.png)
 
 README.mdのMarkdown記法 `# Hello VuePress` がHTMLに変換されていることがわかります。  
 このページのコンテンツを充実させることでサイトの品質を上げていきます。
@@ -112,3 +122,7 @@ README.mdのMarkdown記法 `# Hello VuePress` がHTMLに変換されているこ
 ::: tip <i class="fas fa-comments"></i> ヒント
 ローカルサーバーを停止する場合は、コマンドライン上で `Ctrl+c` （Macの場合：`⌘+c` ）を入力します。
 :::
+
+* test
+* test
+* test
