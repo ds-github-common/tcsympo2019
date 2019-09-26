@@ -122,7 +122,3 @@ README.mdのMarkdown記法 `# Hello VuePress` がHTMLに変換されているこ
 ::: tip <i class="fas fa-comments"></i> ヒント
 ローカルサーバーを停止する場合は、コマンドライン上で `Ctrl+c` （Macの場合：`⌘+c` ）を入力します。
 :::
-
-* test
-* test
-* test
