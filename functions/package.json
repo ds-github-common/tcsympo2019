@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "firebase-functions-test": "^0.1.6",
-    "nodemailer": "^6.3.0"
+    "nodemailer": "^6.4.16"
   },
   "private": true
 }
